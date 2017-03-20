@@ -106,13 +106,14 @@ Do at least 1 task on each topic.
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - [x] A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
+
 ==CURRENTLY HERE== at recursion
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - Computational Complexity: Section 2: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
 - [ ] Cheat sheet: http://bigocheatsheet.com/
 
 ### Additional knowledge
-    - [ ] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
+- [ ] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
 
 
 ## Data Structures
