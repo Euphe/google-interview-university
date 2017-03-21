@@ -43,11 +43,6 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 ## Interview Process & General Interview Prep
 
-- [ ] Videos:
-    - [ ] https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be
-    - [ ] https://www.youtube.com/watch?v=qc1owf2-220&feature=youtu.be
-    - [ ] https://www.youtube.com/watch?v=8npJLXkcmu8
-
 - [ ] Articles:
     - [ ] http://www.google.com/about/careers/lifeatgoogle/hiringprocess/
     - [ ] http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
@@ -67,18 +62,6 @@ This is my multi-month study plan for going from web developer (self-taught, no 
     - [ ] How to Get a Job at the Big 4:
         - [ ] https://www.youtube.com/watch?v=YJZCUhxNCv8
     - [ ] http://alexbowe.com/failing-at-google-interviews/
-
-- [ ] **How computers process a program:**
-    - [ ] https://www.youtube.com/watch?v=42KTvGYQYnA
-    - [ ] https://www.youtube.com/watch?v=Mv2XQgpbTNE
-
-- [ ] **How floating point numbers are stored:**
-    - [ ] simple 8-bit: http://math.stackexchange.com/questions/301435/fractions-in-binary
-    - [ ] 32 bit: https://www.youtube.com/watch?v=ji3SfClm8TU
-    - [ ] 64 bit: https://www.youtube.com/watch?v=50ZYcZebIec
-
-- [ ] **Computer Arch Intro:**
-    (first video only - interesting but not required) https://www.youtube.com/watch?v=zLP_X4wyHbY&list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq&index=1
 
 - [ ] **Python**
     - [ ] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
@@ -113,80 +96,27 @@ Do at least 1 task on each topic.
 - [x] Cheat sheet: http://bigocheatsheet.com/
 
 ### Additional knowledge
+==CURRENTLY HERE== 
 - [ ] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
-
+- [ ] Combinatorics: 
 ## Data Structures
-
-
 - ### Arrays
     - [x] Description:
         - Arrays: https://en.wikipedia.org/wiki/Array_data_structure
 
-==CURRENTLY HERE== at recursion
 - ### Linked Lists
     - [ ] Description:
-        - [ ] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
-        - [ ] CS 61B - Linked lists: https://www.youtube.com/watch?v=sJtJOtXCW_M&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=5
-    - [ ] C Code: https://www.youtube.com/watch?v=QN6FPiD0Gzo
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays
-        - https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays
-    - [ ] why you should avoid linked lists:
-        - https://www.youtube.com/watch?v=YQs6IC-vgmo
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - Description: https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists
-        - No need to implement
 
 - ### Stack
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks
-    - [ ] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html
-    - [ ] Will not implement. Implementing with array is trivial.
+    - [ ] Description:
 
 - ### Queue
-    - [ ] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/EShpq/queue
-    - [ ] Circular buffer/FIFO: https://en.wikipedia.org/wiki/Circular_buffer
-    - [ ] https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Description:
+
     
 - ### Hash table
     - [ ] Videos:
-        - [ ] Hashing with Chaining: https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8
-        - [ ] Table Doubling, Karp-Rabin: https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-        - [ ] Open Addressing, Cryptographic Hashing: https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
         - [ ] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
-        - [ ] (Advanced) Randomization: Universal & Perfect Hashing: https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11
-        - [ ] (Advanced) Perfect hashing: https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4
     
     - [ ] implement with array using linear probing
         - hash(k, m) - m is size of hash table
@@ -205,7 +135,6 @@ Do at least 1 task on each topic.
         - The first half is enough.
 
 - ### Binary search
-    - [ ] https://www.youtube.com/watch?v=D5SrAga1pno
     - [ ] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
     - [ ] detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
     - [ ] Implement:
@@ -850,6 +779,7 @@ Take coding challenges every day, as many as you can.
 - https://courses.csail.mit.edu/iap/interview/materials.php
 
     - LeetCode: https://leetcode.com/
+        - Solved: 1
     - TopCoder: https://www.topcoder.com/
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
     - HackerRank: https://www.hackerrank.com/
