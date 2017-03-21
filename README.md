@@ -85,12 +85,9 @@ After studying a topic make anki cards for all parts that need memorizing:
     - For algorithms: summary (1 sentence), big-oh complexity
     - For data structures: summary, retrieval/deletion/insertion complexity
     - For paradigms: summary, examples of use
-Do at least 1 task on each topic.
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - [x] A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
-
-
 - [x] TopCoder (includes recurrence relations and master theorem):
     - Computational Complexity: Section 2: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
 - [x] Cheat sheet: http://bigocheatsheet.com/
@@ -780,12 +777,11 @@ Take coding challenges every day, as many as you can.
 
     - LeetCode: https://leetcode.com/
         - Solved: 1
-    - TopCoder: https://www.topcoder.com/
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
-    - HackerRank: https://www.hackerrank.com/
     - Codility: https://codility.com/programmers/
     - InterviewCake: https://www.interviewcake.com/
     - InterviewBit: https://www.interviewbit.com/invite/icjf
+    - Codewars: https://www.codewars.com/
 
     - Exercises for getting better at a given language: http://exercism.io/languages
 
