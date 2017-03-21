@@ -107,28 +107,22 @@ Do at least 1 task on each topic.
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 - [x] A Gentle Introduction to Algorithm Complexity Analysis: http://discrete.gr/complexity/
 
-==CURRENTLY HERE== at recursion
-- [ ] TopCoder (includes recurrence relations and master theorem):
+
+- [x] TopCoder (includes recurrence relations and master theorem):
     - Computational Complexity: Section 2: https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/
-- [ ] Cheat sheet: http://bigocheatsheet.com/
+- [x] Cheat sheet: http://bigocheatsheet.com/
 
 ### Additional knowledge
 - [ ] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
 
-
 ## Data Structures
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - Arrays: https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays
-        - Arrays: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html
-        - Multi-dim: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html
-        - Dynamic Arrays: https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays
-        - Jagged: https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html
-        - Resizing arrays:
-            - https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html
 
+- ### Arrays
+    - [x] Description:
+        - Arrays: https://en.wikipedia.org/wiki/Array_data_structure
+
+==CURRENTLY HERE== at recursion
 - ### Linked Lists
     - [ ] Description:
         - [ ] https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists
