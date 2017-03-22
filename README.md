@@ -93,9 +93,10 @@ After studying a topic make anki cards for all parts that need memorizing:
 - [x] Cheat sheet: http://bigocheatsheet.com/
 
 ### Additional knowledge
+- [x] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
 ==CURRENTLY HERE== 
-- [ ] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
-- [ ] Combinatorics: 
+- [ ] Combinatorics: https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/
+
 ## Data Structures
 - ### Arrays
     - [x] Description:
