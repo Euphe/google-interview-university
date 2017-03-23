@@ -8,6 +8,19 @@ And then read line by line: "PAHNAPLSIIGYIR"
 Write the code that will take a string and make this conversion given a number of rows.
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
+
+Zigzag pattern:
+
+/*n=numRows
+Δ=2n-2    1                           2n-1                         4n-3
+Δ=        2                     2n-2  2n                    4n-4   4n-2
+Δ=        3               2n-3        2n+1              4n-5       .
+Δ=        .           .               .               .            .
+Δ=        .       n+2                 .           3n               .
+Δ=        n-1 n+1                     3n-3    3n-1                 5n-5
+Δ=2n-2    n                           3n-2                         5n-4
+*/
+
 """
 import math 
 class Solution(object):
@@ -24,7 +37,7 @@ class Solution(object):
         if len(s) <= numRows:
             return s
 
-        
+
 
         for rownum in range(numRows):
             even = rownum % 2 == 0
