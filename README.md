@@ -94,24 +94,35 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 ### Additional knowledge
 - [x] Logarithms: http://tutorial.math.lamar.edu/Classes/Alg/LogFunctions.aspx#ExpLog_Log_Ex1_a
-==CURRENTLY HERE== 
-- [ ] Combinatorics: https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/
+- [х] Combinatorics: https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/
+- [ ] Probability theory basics
+	- [ ] Learn definitions https://arbital.com/p/probability/
+	- [ ] 
+- [ ] Statistics basics
+- [ ] Linear algebra basics
+- [ ] Trigonometry basics
+- [ ] Calculus basics
 
 ## Data Structures
+- [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/
 - ### Arrays
     - [x] Description:
         - Arrays: https://en.wikipedia.org/wiki/Array_data_structure
 
+
 - ### Linked Lists
-    - [ ] Description:
+    - [x] Description: http://openbookproject.net/thinkcs/python/english3e/linked_lists.html
+
 
 - ### Stack
-    - [ ] Description:
+    - [x] Description: http://openbookproject.net/thinkcs/python/english3e/stacks.html
+
 
 - ### Queue
-    - [ ] Description:
+    - [x] Description: http://openbookproject.net/thinkcs/python/english3e/queues.html
+    - [x] Write an implementation of the Priority Queue ADT using a linked list. You should keep the list sorted so that removal is a constant time operation. Compare the performance of this implementation with the Python list implementation.
 
-    
+==CURRENTLY HERE== 
 - ### Hash table
     - [ ] Videos:
         - [ ] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
@@ -775,7 +786,7 @@ Take coding challenges every day, as many as you can.
 - [ ] Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
 - https://courses.csail.mit.edu/iap/interview/materials.php
-
+-http://www.javaprobs.com/problems-by-data-structure/linkedlist/
     - LeetCode: https://leetcode.com/
         - Solved: 1
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
