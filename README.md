@@ -104,6 +104,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 - [ ] Calculus basics
 
 ## Data Structures
+- Good info source: https://courses.cs.washington.edu/courses/cse326/00wi/handouts.html
 - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/
 - ### Arrays
     - [x] Description:
@@ -122,12 +123,12 @@ After studying a topic make anki cards for all parts that need memorizing:
     - [x] Description: http://openbookproject.net/thinkcs/python/english3e/queues.html
     - [x] Write an implementation of the Priority Queue ADT using a linked list. You should keep the list sorted so that removal is a constant time operation. Compare the performance of this implementation with the Python list implementation.
 
-==CURRENTLY HERE== 
+
 - ### Hash table
-    - [ ] Videos:
-        - [ ] PyCon 2010: The Mighty Dictionary: https://www.youtube.com/watch?v=C4Kc8xzcA68
-    
-    - [ ] implement with array using linear probing
+    - [x] http://www.linuxjournal.com/content/hash-tables%E2%80%94theory-and-practice	
+    - [x] https://www.cs.auckland.ac.nz/~jmor159/PLDS210/niemann/s_has.htm
+    - [x] Implement stuff from here http://interactivepython.org/runestone/static/pythonds/SortSearch/Hashing.html
+    - [x] implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
         - exists(key)
@@ -135,21 +136,21 @@ After studying a topic make anki cards for all parts that need memorizing:
         - remove(key)
 
 ## More Knowledge
+- Very good: http://interactivepython.org/runestone/static/pythonds/index.html
+- Mandatory: http://openbookproject.net/thinkcs/python/english3e
+- Tad bit more advanced http://interactivepython.org/runestone/static/pythonds/index.html
+
 
 - ### Endianness
-    - [ ] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
-    - [ ] https://www.youtube.com/watch?v=JrNF0KRAlyo
-    - [ ] https://www.youtube.com/watch?v=oBSuXP-1Tc0
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+    - [x] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
 
 - ### Binary search
-    - [ ] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
-    - [ ] detail: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
-    - [ ] Implement:
+    - [x] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
+    - [x] Implement:
         - binary search (on sorted array of integers)
         - binary search using recursion
 
+==CURRENTLY HERE== 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
@@ -489,16 +490,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
         - [ ] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
 
-- ### Combinatorics (n choose k) & Probability
-    - [ ] Math Skills: How to find Factorial, Permutation and Combination (Choose): https://www.youtube.com/watch?v=8RRo6Ti9d0U
-    - [ ] Make School: Probability: https://www.youtube.com/watch?v=sZkAAk9Wwa4
-    - [ ] Make School: More Probability and Markov Chains: https://www.youtube.com/watch?v=dNaJg-mLobQ
-    - [ ] Khan Academy:
-        - Course layout:
-            - [ ] https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic 
-        - Just the videos - 41 (each are simple and each are short):
-            - [ ] https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19
-
 - ### NP, NP-Complete and Approximation Algorithms
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
@@ -523,15 +514,6 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 - ### Garbage collection
     - [ ] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
     - [ ] Deep Dive Python: Garbage Collection in CPython: https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3
-
-- ### Caches
-    - [ ] LRU cache:
-        - [ ] The Magic of LRU Cache (100 Days of Google Dev): https://www.youtube.com/watch?v=R5ON3iwx78M
-        - [ ] Implementing LRU: https://www.youtube.com/watch?v=bq6N7Ym81iI
-        - [ ] LeetCode - 146 LRU Cache (C++): https://www.youtube.com/watch?v=8-FZRAjR7qU
-    - [ ] CPU cache:
-        - [ ] MIT 6.004 L15: The Memory Hierarchy: https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24
-        - [ ] MIT 6.004 L16: Cache Issues: https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-
 
 - ### Processes and Threads
     - [ ] Computer Science 162 - Operating Systems (25 videos):
