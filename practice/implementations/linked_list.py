@@ -13,10 +13,41 @@ class Node:
 			out +=  str(self.next_node.cargo)
 		return out 
 
+def check_index_get(func):
+	def func_wrapper(*args, **kwargs):
+		linked_list = args[0]
+		index = 0
+		if len(args)> 1:
+			index = args[1]
+		if index < 0:
+			raise(IndexError('Negative indicies not supported'))
+		if index > linked_list.length-1:
+			raise(IndexError('Index out of linked list bounds'))
+		return func(*args, **kwargs)
+
+	return func_wrapper
+
+def check_index_insert(func):
+	def func_wrapper(*args, **kwargs):
+		linked_list = args[0]
+		index = 0
+		if len(args)> 2:
+			index = args[2]
+		if index < 0:
+			raise(IndexError('Negative indicies not supported'))
+		if index > linked_list.length:
+			raise(IndexError('Index out of linked list bounds'))
+		return func(*args, **kwargs)
+
+	return func_wrapper
+
 class LinkedList:
 	def __init__(self):
 		self.length = 0 #invariant
 		self.head = None
+
+	def __len__(self):
+		return self.length
 
 	def get_node(self, index):
 		i = 0
@@ -25,25 +56,19 @@ class LinkedList:
 			if node:
 				node = node.next_node
 			else:
-				raise(ValueError('Index out of linked list bounds'))
+				raise(IndexError('Index out of linked list bounds'))
 			i+=1
 		return node
 
+	@check_index_get
 	def get(self, index=0):
-		if index < 0:
-			raise(ValueError('Negative indicies not supported'))
-		if index > self.length-1:
-			raise(ValueError('Index out of linked list bounds'))
 		node = self.get_node(index)
 		if node:
 			return node.cargo
 		return None
 
+	@check_index_insert
 	def insert(self, cargo, index=0):
-		if index < 0:
-			raise(ValueError('Negative indicies not supported'))
-		if index > self.length:
-			raise(ValueError('Index out of linked list bounds'))
 		insert_node = Node(cargo)
 
 		prev_node = None
@@ -67,12 +92,8 @@ class LinkedList:
 
 		self.length += 1
 
+	@check_index_get
 	def pop(self, index=0):
-		if index < 0:
-			raise(ValueError('Negative indicies not supported'))
-		if index > self.length-1:
-			raise(ValueError('Index out of linked list bounds'))
-
 		prev_node = None
 		node = self.head
 
@@ -81,7 +102,7 @@ class LinkedList:
 				prev_node = node
 				node = node.next_node
 			else:
-				raise(ValueError('Index out of linked list bounds'))
+				raise(IndexError('Index out of linked list bounds'))
 
 		if index == 0:
 			self.head = node.next_node
@@ -115,6 +136,7 @@ linked_list = LinkedList()
 values = [1, 2, 3]
 for val in values:
 	linked_list.insert(val)
+	print('inserted')
 
 linked_list.print_list()
 print(linked_list.get_list())
@@ -148,7 +170,7 @@ print(linked_list.get_list())
 excepted = False
 try:
 	linked_list.insert(4,5)
-except ValueError as e:
+except IndexError as e:
 	excepted = True
 	assert(str(e) == 'Index out of linked list bounds')
 finally:
@@ -163,7 +185,7 @@ print(linked_list.get_list())
 excepted = False
 try:
 	linked_list.insert(4,-1)
-except ValueError as e:
+except IndexError as e:
 	excepted = True
 	assert(str(e) == 'Negative indicies not supported')
 finally:
@@ -180,7 +202,7 @@ print(linked_list.get_list())
 excepted = False
 try:
 	linked_list.pop(4)
-except ValueError as e:
+except IndexError as e:
 	excepted = True
 	assert(str(e) == 'Index out of linked list bounds')
 finally:
@@ -211,7 +233,7 @@ print("Getting from index 3")
 print(linked_list.get_list())
 try:
 	get = linked_list.get(3)
-except ValueError as e:
+except IndexError as e:
 	excepted = True
 	assert(str(e) == 'Index out of linked list bounds')
 finally:
@@ -222,7 +244,7 @@ print("Getting from index -1")
 print(linked_list.get_list())
 try:
 	get = linked_list.get(-1)
-except ValueError as e:
+except IndexError as e:
 	excepted = True
 	assert(str(e) == 'Negative indicies not supported')
 finally:
