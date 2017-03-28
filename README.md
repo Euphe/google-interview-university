@@ -156,12 +156,7 @@ After studying a topic make anki cards for all parts that need memorizing:
     - [ ] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
     - [x] basic tree construction
     - [x] traversal
-    - manipulation algorithms
-    - [ ] BFS (breadth-first search)
-        - level order (BFS, using queue) Implement!
-            time complexity: O(n)
-            space complexity: best: O(1), worst: O(n/2)=O(n)
-
+    
     - DFS (depth-first search)
         - notes:
             time complexity: O(n)
@@ -174,6 +169,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 ==CURRENTLY HERE== 
 - ### Binary search trees: BSTs
+	- [ ] http://interactivepython.org/runestone/static/pythonds/Trees/SearchTreeImplementation.html
     - [ ] Implement:
         - [ ] insert    // insert value into tree
         - [ ] get_node_count // get count of values stored
@@ -187,36 +183,22 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [ ] delete_value
         - [ ] get_successor // returns next-highest value in tree after given value, -1 if none
 
+
 - ### Heap / Priority Queue / Binary Heap
     - visualized as a tree, but is usually linear in storage (array, linked list)
-    - [ ] https://en.wikipedia.org/wiki/Heap_(data_structure)
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/z3l9N/naive-implementations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - [ ] https://www.coursera.org/learn/data-structures/supplement/S5xxz/tree-height-remark
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/GRV2q/binary-trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/0g1dl/basic-operations
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/gl5Ni/complete-binary-trees
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/HxQo9/pseudocode
-    - [ ] Heap Sort - jumps to start: https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291
-    - [ ] Heap Sort: https://www.coursera.org/learn/data-structures/lecture/hSzMO/heap-sort
-    - [ ] Building a heap: https://www.coursera.org/learn/data-structures/lecture/dwrOS/building-a-heap
-    - [ ] MIT: Heaps and Heap Sort: https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] CS 61B Lecture 24: Priority Queues: https://www.youtube.com/watch?v=yIUFT6AKBGE&index=24&list=PL4BBB74C7D2A1049C
-    - [ ] Linear Time BuildHeap (max-heap): https://www.youtube.com/watch?v=MiyLo8adrWw
-    - [ ] Implement a min-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the min item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the min item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
+    - [x] http://interactivepython.org/runestone/static/pythonds/Trees/BinaryHeapImplementation.html
+    - [x] Implement a min-heap:
+        - [x] MinHeap() creates a new, empty, binary heap.
+		- [x] put(k) adds a new item to the heap.
+		- [x] find_min() returns the item with the minimum key value, leaving item in the heap.
+		- [x] del_min() returns the item with the minimum key value, removing the item from the heap.
+		- [x] is_empty() returns true if the heap is empty, false otherwise.
+		- [x] __len__() returns the number of items in the heap.
+		- [x] _from_list(list) builds a new heap from a list of keys.
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
-        - Test min-heap on large arrays of numbers, 10 million at least 
+    - [ ] PROJECT: Make a minigame with timers implemented with min heap
+
 - ### Tries
     - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
         to track the path.
