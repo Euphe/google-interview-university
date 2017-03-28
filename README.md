@@ -65,14 +65,7 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 - [ ] **Python**
     - [ ] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
-    - [ ] Python in One Video: https://www.youtube.com/watch?v=N4mEzFDjqtA
-    - [ ] Series on 3.4: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
-    - [ ] Zero to Hero: https://www.youtube.com/watch?v=emY34tSKXc4
-    - [ ] Statistics for Hackers: https://www.youtube.com/watch?v=Iq9DzN6mvYA
-    - [ ] Faster Python: https://www.youtube.com/watch?v=JDSGVvMwNM8
-    - [ ] CPython Walk: https://www.youtube.com/watch?v=LhadeL7_EIU&list=PLzV58Zm8FuBL6OAv1Yu6AwXZrnsFbbR0S&index=6
-    - [ ] 10 Tips for Pythonic Code: https://www.youtube.com/watch?v=_O23jIXsshs
-    - [ ] Beyond PEP 8 -- Best practices for beautiful intelligible code: https://www.youtube.com/watch?v=wf-BqAjZb8M
+
 
 ## The Daily Plan
 
@@ -167,7 +160,7 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [x] postorder (DFS: left, right, self)
         - [x] preorder (DFS: self, left, right)
 
-==CURRENTLY HERE== 
+
 - ### Binary search trees: BSTs
 	- [x] http://interactivepython.org/runestone/static/pythonds/Trees/SearchTreeImplementation.html
     - [x] Implement:
@@ -192,66 +185,13 @@ After studying a topic make anki cards for all parts that need memorizing:
 		- [x] __len__() returns the number of items in the heap.
 		- [x] _from_list(list) builds a new heap from a list of keys.
         - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap
-            - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
+
     - [ ] PROJECT: Make a minigame with timers implemented with min heap
 
-- ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path.
-    - I read through code, but will not implement.
-    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries
-    - [ ] Short course videos:
-        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries
-        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries
-        - [ ] https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie
-    - [ ] The Trie: A Neglected Data Structure: https://www.toptal.com/java/the-trie-a-neglected-data-structure
-    - [ ] TopCoder - Using Tries: https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/
-    - [ ] Stanford Lecture (real world use case): https://www.youtube.com/watch?v=TJ8SkcUSdbU
-    - [ ] MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through): https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
-
+==CURRENTLY HERE== 
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
-    - "Among balanced search trees, AVL and 2/3 trees are now passé, and red-black trees seem to be more popular.
-        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-        to move any accessed key to the root." - Skiena
-    - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-        balanced search tree in your interview. But I wanted exposure to coding one up
-        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code.
-        - splay tree: insert, search, delete functions
-        If you end up implementing red/black tree try just these:
-        - search and insertion functions, skipping delete
-    - I want to learn more about B-Tree since it's used so widely with very large data sets.
-    - [ ] Self-balancing binary search tree: https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
-
-
-    - [ ] **Splay trees**
-        - In practice:
-            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-            networking, and file system code) etc.
-        - [ ] CS 61B: Splay Trees: https://www.youtube.com/watch?v=Najzh1rYQTo&index=23&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd
-        - [ ] MIT Lecture: Splay Trees:
-                - Gets very mathy, but watch the last 10 minutes for sure.
-                - https://www.youtube.com/watch?v=QnPl_Y6EqMo
-
-    - [ ] **2-3-4 Trees (aka 2-4 trees)**
-        - In practice:
-            For every 2-4 tree, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-            important tool for understanding the logic behind red–black trees, and this is why many introductory algorithm texts introduce
-            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
-        - [ ] CS 61B Lecture 26: Balanced Search Trees: https://www.youtube.com/watch?v=zqrqYXkth6Q&index=26&list=PL4BBB74C7D2A1049C
-        - [ ] Bottom Up 234-Trees: https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
-        - [ ] Top Down 234-Trees: https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5
-
-    - [ ] **B-Trees**
-        - fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor)
-        - In Practice:
-            B-Trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-            block in a particular file. The basic problem is turning the file block i address into a disk block
-            (or perhaps to a cylinder-head-sector) address.
-        - [ ] B-Tree: https://en.wikipedia.org/wiki/B-tree
+    - [ ] AVL tree - just read - http://interactivepython.org/runestone/static/pythonds/Trees/AVLTreeImplementation.html
 
     - [ ] **Red/black trees**
         - In practice:
@@ -269,14 +209,7 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [ ] https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
         - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
 
-- ### N-ary (K-ary, M-ary) trees
-    - note: the N or K is the branching factor (max branches)
-        - binary trees are a 2-ary tree, with branching factor = 2
-        - 2-3 trees are 3-ary
-    - [ ] https://en.wikipedia.org/wiki/K-ary_tree
-
 ## Sorting
-
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
