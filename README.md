@@ -150,74 +150,30 @@ After studying a topic make anki cards for all parts that need memorizing:
         - binary search (on sorted array of integers)
         - binary search using recursion
 
-==CURRENTLY HERE== 
-- ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
-        - [ ] words: https://en.wikipedia.org/wiki/Word_(computer_architecture)
-        - [ ] Good intro:
-            https://www.youtube.com/watch?v=7jkIUgLC29I
-        - [ ] https://www.youtube.com/watch?v=d0AwjSpNXR0
-        - [ ] https://en.wikipedia.org/wiki/Bit_manipulation
-        - [ ] https://en.wikipedia.org/wiki/Bitwise_operation
-        - [ ] https://graphics.stanford.edu/~seander/bithacks.html
-        - [ ] http://bits.stephan-brumme.com/
-        - [ ] http://bits.stephan-brumme.com/interactive.html
-    - [ ] 2s and 1s complement
-        - https://www.youtube.com/watch?v=lKTsv6iVxV4
-        - https://en.wikipedia.org/wiki/Ones%27_complement
-        - https://en.wikipedia.org/wiki/Two%27s_complement
-    - [ ] count set bits
-        - https://youtu.be/Hzuzo9NJrlc
-        - https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan
-        - http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer
-    - [ ] round to next power of 2:
-        - http://bits.stephan-brumme.com/roundUpToNextPowerOfTwo.html
-    - [ ] swap values:
-        - http://bits.stephan-brumme.com/swap.html
-    - [ ] absolute value:
-        - http://bits.stephan-brumme.com/absInteger.html
 
 ## Trees
 - ### Trees - Notes & Background
-    - [ ] Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees
-    - [ ] Series: https://www.coursera.org/learn/data-structures/lecture/95qda/trees
-    - basic tree construction
-    - traversal
+    - [ ] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
+    - [x] basic tree construction
+    - [x] traversal
     - manipulation algorithms
-    - BFS (breadth-first search)
-        - MIT: https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13
-        - level order (BFS, using queue)
+    - [ ] BFS (breadth-first search)
+        - level order (BFS, using queue) Implement!
             time complexity: O(n)
             space complexity: best: O(1), worst: O(n/2)=O(n)
+
     - DFS (depth-first search)
-        - MIT: https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14
         - notes:
             time complexity: O(n)
             space complexity:
                 best: O(log n) - avg. height of tree
                 worst: O(n)
-        - inorder (DFS: left, self, right)
-        - postorder (DFS: left, right, self)
-        - preorder (DFS: self, left, right)
+        - [x] inorder (DFS: left, self, right)
+        - [x] postorder (DFS: left, right, self)
+        - [x] preorder (DFS: self, left, right)
 
+==CURRENTLY HERE== 
 - ### Binary search trees: BSTs
-    - [ ] Binary Search Tree Review: https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6
-    - [ ] Series: https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees
-        - starts with symbol table and goes through BST applications
-    - [ ] https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction
-    - [ ] MIT: https://www.youtube.com/watch?v=9Jry5-82I68
-    - C/C++:
-        - [ ] https://www.youtube.com/watch?v=COZK7NATh4k&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=28
-        - [ ] https://www.youtube.com/watch?v=hWokyBoo0aI&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=29
-        - [ ] https://www.youtube.com/watch?v=Ut90klNN264&index=30&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - [ ] https://www.youtube.com/watch?v=_pnqMz5nrRs&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=31
-        - [ ] https://www.youtube.com/watch?v=9RHO6jU--GU&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=32
-        - [ ] https://www.youtube.com/watch?v=86g8jAQug04&index=33&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - [ ] https://www.youtube.com/watch?v=gm8DUJJhmY4&index=34&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - [ ] https://www.youtube.com/watch?v=yEwSGhSsT0U&index=35&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
-        - [ ] https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36
-        - [ ] https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
     - [ ] Implement:
         - [ ] insert    // insert value into tree
         - [ ] get_node_count // get count of values stored
