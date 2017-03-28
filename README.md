@@ -146,7 +146,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 ## Trees
 - ### Trees - Notes & Background
-    - [ ] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
+    - [x] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
     - [x] basic tree construction
     - [x] traversal
     
