@@ -195,25 +195,17 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 ==CURRENTLY HERE== 
 ## Sorting
-- [ ] Notes:
-    - Implement sorts & know best case/worst case, average complexity of each:
-        - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] stability in sorting algorithms ("Is Quicksort stable?")
-        - https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
-        - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
-        - http://www.geeksforgeeks.org/stability-in-sorting-algorithms/
-        - http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
-        - I wouldn't recommend sorting a linked list, but merge sort is doable.
-        - http://www.geeksforgeeks.org/merge-sort-for-linked-list/
-
+- [x] stability in sorting algorithms ("Is Quicksort stable?")
+    - https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
+    - http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms
+    
 - For heapsort, see Heap data structure above. Heap sort is great, but not stable.
-- [ ] http://interactivepython.org/runestone/static/pythonds/SortSearch/toctree.html
+- [x] http://interactivepython.org/runestone/static/pythonds/SortSearch/toctree.html
 	- [x] Bubble sort - no need to implement
 	- [x] Selection sort - no need to implement
 	- [x] Insertion sort - no need to implement
 	- [x] Merge sort - implement
-	- [ ] Quick sort - implement
+	- [x] Quick sort - implement
 
 ## Graphs
 
