@@ -130,8 +130,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 ## More Knowledge
 - Very good: http://interactivepython.org/runestone/static/pythonds/index.html
 - Mandatory: http://openbookproject.net/thinkcs/python/english3e
-- Tad bit more advanced http://interactivepython.org/runestone/static/pythonds/index.html
-
+- Tad bit more advanced (but the best of three) http://interactivepython.org/runestone/static/pythonds/index.html
 
 - ### Endianness
     - [x] https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
@@ -209,47 +208,12 @@ After studying a topic make anki cards for all parts that need memorizing:
         - http://www.geeksforgeeks.org/merge-sort-for-linked-list/
 
 - For heapsort, see Heap data structure above. Heap sort is great, but not stable.
-
-- [ ] Bubble Sort: https://www.youtube.com/watch?v=P00xJgWzz2c&index=1&list=PL89B61F78B552C1AB
-- [ ] Analyzing Bubble Sort: https://www.youtube.com/watch?v=ni_zk257Nqo&index=7&list=PL89B61F78B552C1AB
-- [ ] Insertion Sort, Merge Sort: https://www.youtube.com/watch?v=Kg4bqzAqRBM&index=3&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-- [ ] Insertion Sort: https://www.youtube.com/watch?v=c4BRHC7kTaQ&index=2&list=PL89B61F78B552C1AB
-- [ ] Merge Sort: https://www.youtube.com/watch?v=GCae1WNvnZM&index=3&list=PL89B61F78B552C1AB
-- [ ] Quicksort: https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB
-- [ ] Selection Sort: https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB
-
-- [ ] Stanford lectures on sorting:
-    - [ ] https://www.youtube.com/watch?v=ENp00xylP7c&index=15&list=PLFE6E58F856038C69
-    - [ ] https://www.youtube.com/watch?v=y4M9IVgrVKo&index=16&list=PLFE6E58F856038C69
-
-- [ ] Shai Simonson, [Aduni.org](http://www.aduni.org/):
-    - [ ] https://www.youtube.com/watch?v=odNJmw5TOEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=2
-    - [ ] https://www.youtube.com/watch?v=hj8YKFTFKEE&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=3
-
-- [ ] Steven Skiena lectures on sorting:
-    - [ ] lecture begins at 26:46: https://youtu.be/ute-pmMkyuk?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1600
-    - [ ] lecture begins at 27:40: https://www.youtube.com/watch?v=yLvp-pB8mak&index=8&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] lecture begins at 35:00: https://www.youtube.com/watch?v=q7K9otnzlfE&index=9&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] lecture begins at 23:50: https://www.youtube.com/watch?v=TvqIGu9Iupw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=10
-
-- [ ] UC Berkeley:
-    - [ ] CS 61B Lecture 29: Sorting I: https://www.youtube.com/watch?v=EiUvYS2DT6I&list=PL4BBB74C7D2A1049C&index=29
-    - [ ] CS 61B Lecture 30: Sorting II: https://www.youtube.com/watch?v=2hTY3t80Qsk&list=PL4BBB74C7D2A1049C&index=30
-    - [ ] CS 61B Lecture 32: Sorting III: https://www.youtube.com/watch?v=Y6LOLpxg6Dc&index=32&list=PL4BBB74C7D2A1049C
-    - [ ] CS 61B Lecture 33: Sorting V: https://www.youtube.com/watch?v=qNMQ4ly43p4&index=33&list=PL4BBB74C7D2A1049C
-
-- [ ] - Merge sort code:
-    - [ ] Using output array: http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c
-    - [ ] In-place: https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc
-- [ ] - Quick sort code:
-    - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c
-    - [ ] https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c
-
-- [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
-    - [ ] Quicksort O(n log n) average case
-    - Selection sort and insertion sort are both O(n^2) average and worst case
-    - For heapsort, see Heap data structure above.
+- [ ] http://interactivepython.org/runestone/static/pythonds/SortSearch/toctree.html
+	- [x] Bubble sort - no need to implement
+	- [x] Selection sort - no need to implement
+	- [x] Insertion sort - no need to implement
+	- [x] Merge sort - implement
+	- [ ] Quick sort - implement
 
 ## Graphs
 
