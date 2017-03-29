@@ -90,7 +90,6 @@ After studying a topic make anki cards for all parts that need memorizing:
 - [х] Combinatorics: https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/
 - [ ] Probability theory basics
 	- [ ] Learn definitions https://arbital.com/p/probability/
-	- [ ] 
 - [ ] Statistics basics
 - [ ] Linear algebra basics
 - [ ] Trigonometry basics
@@ -184,31 +183,18 @@ After studying a topic make anki cards for all parts that need memorizing:
 		- [x] is_empty() returns true if the heap is empty, false otherwise.
 		- [x] __len__() returns the number of items in the heap.
 		- [x] _from_list(list) builds a new heap from a list of keys.
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap
+        - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap - not implement, just read
 
     - [ ] PROJECT: Make a minigame with timers implemented with min heap
 
-==CURRENTLY HERE== 
+
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
     - [ ] AVL tree - just read - http://interactivepython.org/runestone/static/pythonds/Trees/AVLTreeImplementation.html
 
-    - [ ] **Red/black trees**
-        - In practice:
-            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-            Not only does this make them valuable in time-sensitive applications such as real-time applications,
-            but it makes them valuable building blocks in other data structures which provide worst-case guarantees;
-            for example, many data structures used in computational geometry can be based on red–black trees, and
-            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In the version 8 of Java,
-            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-            hashcodes, a Red-Black tree is used.
-        - [ ] Aduni - Algorithms - Lecture 4
-            link jumps to starting point:
-            https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871
-        - [ ] Aduni - Algorithms - Lecture 5: https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5
-        - [ ] https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
-        - [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/
+    - [x] Red/black trees - just read on them
 
+==CURRENTLY HERE== 
 ## Sorting
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
