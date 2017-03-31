@@ -158,6 +158,13 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [x] postorder (DFS: left, right, self)
         - [x] preorder (DFS: self, left, right)
 
+- ### Prefix tree
+    - [ ] Prefix trees
+    - [ ] Implement
+
+- ### Trie
+    - [ ] Tries
+    - [ ] Implement
 
 - ### Binary search trees: BSTs
 	- [x] http://interactivepython.org/runestone/static/pythonds/Trees/SearchTreeImplementation.html
@@ -193,7 +200,6 @@ After studying a topic make anki cards for all parts that need memorizing:
 
     - [x] Red/black trees - just read on them
 
-==CURRENTLY HERE== 
 ## Sorting
 - [x] stability in sorting algorithms ("Is Quicksort stable?")
     - https://en.wikipedia.org/wiki/Sorting_algorithm#Stability
@@ -207,10 +213,9 @@ After studying a topic make anki cards for all parts that need memorizing:
 	- [x] Merge sort - implement
 	- [x] Quick sort - implement
 
+==CURRENTLY HERE== 
 ## Graphs
-
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
-
 - Notes from Yegge:
     - There are three basic ways to represent a graph in memory:
         - objects and pointers
@@ -533,6 +538,8 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
+- ### System Design
+    - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
 - ### Design patterns
     - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [ ] Learn these patterns:
@@ -553,6 +560,9 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
+
+- ### SQL
+    - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
 ### Books, when the interviews are close
 
@@ -589,7 +599,8 @@ Take coding challenges every day, as many as you can.
     - Exercises for getting better at a given language: http://exercism.io/languages
 
 ## Once you're closer to the interview
-
+- [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
+- [ ] http://haseebq.com/how-not-to-bomb-your-offer-negotiation/
 - [ ] Cracking The Coding Interview Set 2:
     - https://www.youtube.com/watch?v=4NIb9l3imAo
     - https://www.youtube.com/watch?v=Eg5-tdAwclo
