@@ -213,7 +213,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 	- [x] Merge sort - implement
 	- [x] Quick sort - implement
 
-==CURRENTLY HERE== 
+
 ## Graphs
 Graphs can be used to represent many problems in computer science, so this section is long, like trees and sorting were.
 - Notes from Yegge:
@@ -225,43 +225,30 @@ Graphs can be used to represent many problems in computer science, so this secti
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-- [ ] Skiena Lectures - great intro:
-    - [ ] CSE373 2012 - Lecture 11 - Graph Data Structures: https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11
-    - [ ] CSE373 2012 - Lecture 12 - Breadth-First Search: https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12
-    - [ ] CSE373 2012 - Lecture 13 - Graph Algorithms: https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13
-    - [ ] CSE373 2012 - Lecture 14 - Graph Algorithms (con't): https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2): https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3): https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-
 - [ ] Graphs (review and more):
-
-    - [ ] 6.006 Single-Source Shortest Paths Problem: https://www.youtube.com/watch?v=Aa2sqUhIn-E&index=15&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] 6.006 Dijkstra: https://www.youtube.com/watch?v=2E7MmKv0Y24&index=16&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-    - [ ] 6.006 Bellman-Ford: https://www.youtube.com/watch?v=ozsuci5pIso&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17
-    - [ ] 6.006 Speeding Up Dijkstra: https://www.youtube.com/watch?v=CHvQ3q_gJ7E&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=18
-    - [ ] Aduni: Graph Algorithms I - Topological Sorting, Minimum Spanning Trees, Prim's Algorithm -  Lecture 6: https://www.youtube.com/watch?v=i_AQT_XfvD8&index=6&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-    - [ ] Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7: https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7
-    - [ ] Aduni: Graph Algorithms III: Shortest Path - Lecture 8: https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8
-    - [ ] Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9: https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9
-    - [ ] CS 61B 2014 (starting at 58:09): https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489
-    - [ ] CS 61B 2014: Weighted graphs: https://www.youtube.com/watch?v=aJjlQCFwylA&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=19
-    - [ ] Greedy Algorithms: Minimum Spanning Tree: https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-    - [ ] Strongly Connected Components Kosaraju's Algorithm Graph Algorithm: https://www.youtube.com/watch?v=RpgcYiky7uw
+    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/toctree.html
+    - [x] https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
 
 - Yegge: If you get a chance, try to study up on fancier algorithms:
     - [ ] Dijkstra's algorithm - see above - 6.006
     - [ ] A*
-        - [ ] https://en.wikipedia.org/wiki/A*_search_algorithm
-        - [ ] A* Pathfinding Tutorial: https://www.youtube.com/watch?v=KNXfSOx4eEE
-        - [ ] A* Pathfinding (E01: algorithm explanation): https://www.youtube.com/watch?v=-L-WgKMFuhE
+
+Read on:
+    - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/TopologicalSorting.html
+    - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/StronglyConnectedComponents.html
+    
+    ==CURRENTLY HERE== 
+    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/ShortestPathProblems.html - Important
 
 - I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
-    - [ ] BFS with adjacency matrix
+    - [x] DFS with adjacency list (recursive)
+    - [ ] https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm
+    - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/ImplementingKnightsTour.html - I am pretty sure code from here is wrong
+    - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/GeneralDepthFirstSearch.html
+
+    - [x] BFS with adjacency list
+        - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/ImplementingBreadthFirstSearch.html
+    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/DijkstrasAlgorithm.html
     - [ ] single-source shortest path (Dijkstra)
 
 You'll get more graph practice in Skiena's book (see Books section below) and the interview books
