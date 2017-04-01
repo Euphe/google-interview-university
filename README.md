@@ -225,33 +225,32 @@ Graphs can be used to represent many problems in computer science, so this secti
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
+    ==CURRENTLY HERE== 
 - [ ] Graphs (review and more):
-    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/toctree.html
+    - [X http://interactivepython.org/runestone/static/pythonds/Graphs/toctree.html
     - [x] https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
-
-- Yegge: If you get a chance, try to study up on fancier algorithms:
-    - [ ] Dijkstra's algorithm - see above - 6.006
-    - [ ] A*
 
 Read on:
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/TopologicalSorting.html
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/StronglyConnectedComponents.html
     
-    ==CURRENTLY HERE== 
-    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/ShortestPathProblems.html - Important
+
+    - [X] http://interactivepython.org/runestone/static/pythonds/Graphs/ShortestPathProblems.html - Important
+
+    - [X] http://interactivepython.org/runestone/static/pythonds/Graphs/PrimsSpanningTreeAlgorithm.html
 
 - I'll implement:
     - [x] DFS with adjacency list (recursive)
-    - [ ] https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/ImplementingKnightsTour.html - I am pretty sure code from here is wrong
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/GeneralDepthFirstSearch.html
 
     - [x] BFS with adjacency list
         - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/ImplementingBreadthFirstSearch.html
-    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/DijkstrasAlgorithm.html
-    - [ ] single-source shortest path (Dijkstra)
-
-You'll get more graph practice in Skiena's book (see Books section below) and the interview books
+    - [x http://interactivepython.org/runestone/static/pythonds/Graphs/DijkstrasAlgorithm.html
+        - [x] http://techieme.in/shortest-path-using-dijkstras-algorithm/
+        - [x] https://www-m9.ma.tum.de/graph-algorithms/spp-dijkstra/index_en.html
+- Problems:
+    - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/ProgrammingExercises.html
 
 ## Even More Knowledge
 
@@ -584,6 +583,8 @@ Take coding challenges every day, as many as you can.
     - Codewars: https://www.codewars.com/
 
     - Exercises for getting better at a given language: http://exercism.io/languages
+## Other:
+    - [ ] http://www.codefool.org/wiki_165/index.php?title=Google_Interview_Questions - primarily use as a source of topics to study
 
 ## Once you're closer to the interview
 - [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
