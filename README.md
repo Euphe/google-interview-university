@@ -147,7 +147,6 @@ After studying a topic make anki cards for all parts that need memorizing:
     - [x] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
     - [x] basic tree construction
     - [x] traversal
-    
     - DFS (depth-first search)
         - notes:
             time complexity: O(n)
@@ -196,8 +195,6 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
-    - [ ] AVL tree - just read - http://interactivepython.org/runestone/static/pythonds/Trees/AVLTreeImplementation.html
-
     - [x] Red/black trees - just read on them
 
 ## Sorting
@@ -225,18 +222,15 @@ Graphs can be used to represent many problems in computer science, so this secti
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-    ==CURRENTLY HERE== 
-- [ ] Graphs (review and more):
-    - [X http://interactivepython.org/runestone/static/pythonds/Graphs/toctree.html
+
+- [x] Graphs (review and more):
+    - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/toctree.html
     - [x] https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
 
 Read on:
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/TopologicalSorting.html
     - [x] http://interactivepython.org/runestone/static/pythonds/Graphs/StronglyConnectedComponents.html
-    
-
     - [X] http://interactivepython.org/runestone/static/pythonds/Graphs/ShortestPathProblems.html - Important
-
     - [X] http://interactivepython.org/runestone/static/pythonds/Graphs/PrimsSpanningTreeAlgorithm.html
 
 - I'll implement:
@@ -253,17 +247,9 @@ Read on:
     - [ ] http://interactivepython.org/runestone/static/pythonds/Graphs/ProgrammingExercises.html
 
 ## Even More Knowledge
-
 - ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
-        - [ ] https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8
-        - [ ] https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9
-        - [ ] https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69
-        - [ ] https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11
-    - when it is appropriate to use it
     - how is tail recursion better than not?
-        - [ ] https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad
-        - [ ] https://www.youtube.com/watch?v=L1jjXGfxozc
+        - [x] https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad
  
 - ### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
@@ -565,15 +551,11 @@ Read on:
 
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
-
-- [ ] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
-- [ ] How to Find a Solution: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-find-a-solution/
-- [ ] How to Dissect a Topcoder Problem Statement: https://www.topcoder.com/community/data-science/data-science-tutorials/how-to-dissect-a-topcoder-problem-statement/ 
+- [x] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
 - [ ] Mathematics for Topcoders: https://www.topcoder.com/community/data-science/data-science-tutorials/mathematics-for-topcoders/
 - [ ] Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
-- https://courses.csail.mit.edu/iap/interview/materials.php
--http://www.javaprobs.com/problems-by-data-structure/linkedlist/
+    - http://www.javaprobs.com/
     - LeetCode: https://leetcode.com/
         - Solved: 1
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
