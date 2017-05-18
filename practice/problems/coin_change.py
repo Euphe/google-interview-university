@@ -25,6 +25,7 @@ def total_solutions(n, coins):
     return total_solutions(n-coins[-1], coins) + total_solutions(n, coins[:-1])
 
 def coin_change_dp(n, coins):
+    coins = sorted(coins)
     dp = [ [ 0 for i in range(n+1) ] for i in range(len(coins)+1) ]  #dp[i][j] = solutions for coins[:i] and  N = j
 
     #base case: if we dont have any coins there are no solutions
@@ -41,7 +42,15 @@ def coin_change_dp(n, coins):
     #fill the matrix
     for i in range(1, len(coins)+1):
         for j in range(1, n+1):
-            dp[i][j] = dp[i][j-coins[i-1]] + dp[i-1][j]
+
+            left_ind = j-coins[i-1]
+            if left_ind < 0:
+                left_part = 0
+            else:
+                left_part =  dp[i][j-coins[i-1]]
+
+
+            dp[i][j] = left_part + dp[i-1][j]
             # for row in dp:
             #     print(row)
             # print('')
@@ -54,6 +63,8 @@ def coin_change_dp(n, coins):
 
 assert(coin_change_dp(4, [1,2,3]) == 4)
 assert(coin_change_dp(10, [2, 5, 3, 6]) == 5)
+S = [44,5,9,39,6,25,3,28,16,19,4,49,40,22,2,12,45,33,23,42,34,15,46,26,13,31,8]
+N = 2
+assert(coin_change_dp(N, S) == 1)
 #print(total_solutions(6, S))
-
 
