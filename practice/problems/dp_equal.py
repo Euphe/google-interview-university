@@ -38,57 +38,38 @@ Sample Output
 
 """
 import sys
-T = 1
-cookies = [2, 2, 3, 7]
 
-def operation(opernum, cookies, collegue):
-	new_cookies = list(cookies)
-	for i in range(len(cookies)):
-		if i != collegue:
-			if opernum == 1:
-				new_cookies[i]+= 1
-			elif opernum == 2:
-				new_cookies[i]+= 2
-			elif opernum == 3:
-				new_cookies[i]+= 5
-			else:
-				raise(ValueError('Invalid operation'))
-	return new_cookies
+def get_operations(diff, cookies):
+	operations = 0
+	for i, c in enumerate(cookies):
+		x = cookies[i]-diff
+		while x > 0:
+			operations+= x // 5
+			x = x % 5
 
-rec_level = 0
-def equalize(cookies, collegue): #Returns the minimal amount of operations required to equalize all numbers in a sequence
+			operations+= x // 2
+			x = x % 2
 
-	#if collegue invalid then its an impossible to apply any operations to him
-	if collegue<0:
-		return 999999999999999 
+			operations+= x // 1
+			x = x % 1
+	return operations
 
-	#if no cookies are given then everyone is equal, communism!
-	if not cookies:
-		return 0
 
-	#base case, check for equality
-	if len(set(cookies))==1:
-		return 0
+def equalize(cookies):
+	min_cookies = min(cookies)
 
-	min_collegue = min(enumerate(cookies), key = lambda x: x[1])[0]
-	if min_collegue == collegue:
-		#There is no point in applying any operations to that collegue anymore
-		return equalize(cookies, collegue-1)
+	cookie_diff = [x-min_cookies for x in cookies]
 
-	#Four cases:
-		#Either we apply operation 1 to collegue
-		#or we apply operation 2 to collegue
-		#or we apply operation 3 to collegue
-		#or we don't apply any operations to that collegue
-	case1 = equalize(operation(1, cookies, collegue), collegue)+1
-	case2 = equalize(operation(2, cookies, collegue), collegue)+1
-	case3 = equalize(operation(3, cookies, collegue), collegue)+1
-	case4 = equalize(cookies, collegue-1)
+	diffs = [min_cookies-i for i in range(5)]
+	operations = [get_operations(diff, cookies) for diff in diffs]
 
-	return min([case1, case2, case3, case4])
+	return min(operations)
 
-#cookies = [1,2,4]
-print('Answer', equalize(cookies, len(cookies)-1))
+t = int(input().strip())
+for a0 in range(t):
+    N = int(input().strip())
+    cookies = list(map(int, input().strip().split(' ')))
+    print(equalize(cookies))
 
 
 """
