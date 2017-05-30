@@ -184,6 +184,7 @@ _*Currently here*_
 		- [x] _from_list(list) builds a new heap from a list of keys.
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap - not implement, just read
 
+
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
     - [x] Red/black trees - just read on them
@@ -243,50 +244,32 @@ Read on:
         - [x] https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad
  
 - ### Dynamic Programming
-    - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
-    - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
-    - [ ] Videos:
-        - the Skiena videos can be hard to follow since he sometimes uses the whiteboard, which is too small to see
-        - [ ] Skiena: CSE373 2012 - Lecture 19 - Introduction to Dynamic Programming: https://youtu.be/Qc2ieXRgR0k?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1718
-        - [ ] Skiena: CSE373 2012 - Lecture 20 - Edit Distance: https://youtu.be/IsmMhMdyeGY?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=2749
-        - [ ] Skiena: CSE373 2012 - Lecture 21 - Dynamic Programming Examples: https://youtu.be/o0V9eYF4UI8?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=406
-        - [ ] Skiena: CSE373 2012 - Lecture 22 - Applications of Dynamic Programming: https://www.youtube.com/watch?v=dRbMC1Ltl3A&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=22
-        - [ ] Simonson: Dynamic Programming 0 (starts at 59:18): https://youtu.be/J5aJEcOr6Eo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3558
-        - [ ] Simonson: Dynamic Programming I - Lecture 11: https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-        - [ ] Simonson: Dynamic programming II - Lecture 12: https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12
-        - [ ] List of individual DP problems (each is short):
-            https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
-    - [ ] Yale Lecture notes: 
-        - [ ] http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming
-    - [ ] Coursera:
-        - [ ] The RNA secondary structure problem: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/80RrW/the-rna-secondary-structure-problem
-        - [ ] A dynamic programming algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/PSonq/a-dynamic-programming-algorithm
-        - [ ] Illustrating the DP algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/oUEK2/illustrating-the-dp-algorithm
-        - [ ] Running time of the DP algorithm: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/nfK2r/running-time-of-the-dp-algorithm
-        - [ ] DP vs. recursive implementation: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/M999a/dp-vs-recursive-implementation
-        - [ ] Global pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment
-        - [ ] Local pairwise sequence alignment: https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment
+	- [x] Intro https://www.codechef.com/wiki/tutorial-dynamic-programming
+	- [x] http://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
+	- [x] https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/tutorial/
+	- [x] Knapsack http://www.thelearningpoint.net/computer-science/algorithms-dynamic-programming---the-integer-knapsack-problem
+	- [x] Longest common subsequence http://algorithms.tutorialhorizon.com/dynamic-programming-longest-common-subsequence/
+	- [ ] REDO once more competent http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
+	- [ ] REDO once more competent http://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/
+	- [x] Coin change problem http://www.algorithmist.com/index.php/Coin_Change
+	- [x] https://www.hackerrank.com/challenges/fibonacci-modified
+	- [ ] Not really DP - https://www.hackerrank.com/challenges/stockmax
+	- [ ] https://www.hackerrank.com/challenges/play-game
+	- [ ] https://www.hackerrank.com/challenges/red-john-is-back
+	- [ ] https://www.hackerrank.com/challenges/strplay
+	- [ ] Began solving, got stuck. Inspect stolen solution in python file! https://www.hackerrank.com/challenges/equal
+	- [ ] https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/
+	- [ ] Final read https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+	- [ ] Loads of problems: http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming
+
 
 - ### NP, NP-Complete and Approximation Algorithms
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
-    - [ ] Computational Complexity: https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23
-    - [ ] Simonson:
-        - [ ] https://youtu.be/qcGnJ47Smlo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=2939
-        - [ ] https://www.youtube.com/watch?v=e0tGC6ZQdQE&index=16&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-        - [ ] https://www.youtube.com/watch?v=fCX1BGT3wjE&index=17&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm
-        - [ ] https://www.youtube.com/watch?v=NKLDp3Rch3M&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=18
-    - [ ] Skiena:
-        - [ ] CSE373 2012 - Lecture 23 - Introduction to NP-Completeness: https://youtu.be/KiK5TVgXbFg?list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&t=1508
-        - [ ] CSE373 2012 - Lecture 24 - NP-Completeness Proofs: https://www.youtube.com/watch?v=27Al52X3hd4&index=24&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-        - [ ] CSE373 2012 - Lecture 25 - NP-Completeness Challenge: https://www.youtube.com/watch?v=xCPH4gwIIXM&index=25&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b
-    - [ ] Complexity: P, NP, NP-completeness, Reductions: https://www.youtube.com/watch?v=eHZifpgyH_4&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=22
-    - [ ] Complexity: Approximation Algorithms: https://www.youtube.com/watch?v=MEz1J9wY2iM&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=24
-    - [ ] Complexity: Fixed-Parameter Algorithms: https://www.youtube.com/watch?v=4q-jmGrmxKs&index=25&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
-    - Peter Norvik discusses near-optimal solutions to traveling salesman problem:
-        - http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb
-    - Pages 1048 - 1140 in CLRS if you have it.
+    - [x] http://stackoverflow.com/questions/1857244/what-are-the-differences-between-np-np-complete-and-np-hard/1857342#1857342
+    - [x] http://stackoverflow.com/questions/1857244/what-are-the-differences-between-np-np-complete-and-np-hard/19510170#19510170
+    - [x] https://www.quora.com/How-do-you-explain-NP-Complete-and-NP-hard-to-a-child
 
 - ### Garbage collection
     - [ ] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
