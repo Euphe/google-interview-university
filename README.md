@@ -97,24 +97,20 @@ After studying a topic make anki cards for all parts that need memorizing:
 
 ## Data Structures
 - Good info source: https://courses.cs.washington.edu/courses/cse326/00wi/handouts.html
-- [ ] https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/
+- 
 - ### Arrays
     - [x] Description:
         - Arrays: https://en.wikipedia.org/wiki/Array_data_structure
-
-
+        - 
 - ### Linked Lists
     - [x] Description: http://openbookproject.net/thinkcs/python/english3e/linked_lists.html
-
 
 - ### Stack
     - [x] Description: http://openbookproject.net/thinkcs/python/english3e/stacks.html
 
-
 - ### Queue
     - [x] Description: http://openbookproject.net/thinkcs/python/english3e/queues.html
     - [x] Write an implementation of the Priority Queue ADT using a linked list. You should keep the list sorted so that removal is a constant time operation. Compare the performance of this implementation with the Python list implementation.
-
 
 - ### Hash table
     - [x] http://www.linuxjournal.com/content/hash-tables%E2%80%94theory-and-practice	
@@ -138,10 +134,7 @@ After studying a topic make anki cards for all parts that need memorizing:
 - ### Binary search
     - [x] https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
     - [x] Implement:
-        - binary search (on sorted array of integers)
         - binary search using recursion
-
-
 ## Trees
 - ### Trees - Notes & Background
     - [x] http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html
@@ -157,6 +150,7 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [x] postorder (DFS: left, right, self)
         - [x] preorder (DFS: self, left, right)
 
+_*Currently here*_
 - ### Prefix tree
     - [ ] Prefix trees
     - [ ] Implement
@@ -189,9 +183,6 @@ After studying a topic make anki cards for all parts that need memorizing:
 		- [x] __len__() returns the number of items in the heap.
 		- [x] _from_list(list) builds a new heap from a list of keys.
         - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a min heap - not implement, just read
-
-    - [ ] PROJECT: Make a minigame with timers implemented with min heap
-
 
 - ### Balanced search trees
     - Know least one type of balanced binary tree (and know how it's implemented):
@@ -556,6 +547,7 @@ Take coding challenges every day, as many as you can.
 - [ ] Dynamic Programming – From Novice to Advanced: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
     - http://www.javaprobs.com/
+    - http://algorithms.tutorialhorizon.com/
     - LeetCode: https://leetcode.com/
         - Solved: 1
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
