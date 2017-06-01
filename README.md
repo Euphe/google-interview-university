@@ -65,6 +65,9 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 - [ ] **Python**
     - [ ] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
+    - [ ] Advanced: descriptors https://docs.python.org/3/howto/descriptor.html#descriptor-protocol
+    - [ ] Really advanced on metaclasses, previous article is a prequisite https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/
+    - [x] Metaclasses, with django ORM example https://habrahabr.ru/post/145835/
 
 
 ## The Daily Plan
@@ -341,36 +344,39 @@ Read on:
         - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
         - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
-    - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
-    - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
-    - [ ] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos): 
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
-    - [ ] SOLID OOP Principles:
-        - [ ] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
-        - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
-        - [ ] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
-        - [ ] S - Single Responsibility Principle | Single responsibility to each Object
-            - http://www.oodesign.com/single-responsibility-principle.html
-            - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
-            - more flavor: https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk
-        - [ ] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
-            - http://www.oodesign.com/open-close-principle.html
-            - https://en.wikipedia.org/wiki/Open/closed_principle
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en
-        - [ ] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
-            - http://www.oodesign.com/liskov-s-substitution-principle.html
-            - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en
-        - [ ] I - Interface segregation principle | clients should not be forced to implement interfaces they don't use
-            - http://www.oodesign.com/interface-segregation-principle.html
-            - Interface Segregation Principle in 5 minutes: https://www.youtube.com/watch?v=3CtAfl7aXAQ
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en
-        - [ ] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
-            - http://www.oodesign.com/dependency-inversion-principle.html
-            - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en
+
+    - [x] https://en.wikipedia.org/wiki/Object-oriented_programming
+    - [ ] https://tproger.ru/translations/oop-principles-cheatsheet/
+    - [x] SOLID OOP Principles:
+    	- [x] https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+    	- [x] https://habrahabr.ru/post/83269/
+    	- [x] http://makedev.org/principles/solid/isp.html
+    	- [x] http://makedev.org/principles/solid/dip.html
+
+   	
+
+    - [ ] Additional on solid:
+		- [ ] http://www.oodesign.com/single-responsibility-principle.html
+	    - [ ] http://www.oodesign.com/open-close-principle.html
+	    - [ ] http://www.oodesign.com/liskov-s-substitution-principle.html
+	    - [ ] http://www.oodesign.com/interface-segregation-principle.html
+	    - [ ] http://www.oodesign.com/dependency-inversion-principle.html
+
+	- [x] http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
+	- [x] https://habrahabr.ru/post/87205/
+
+	- [x] OOP in Python:
+	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesBasics/toctree.html
+	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesDiggingDeeper/toctree.html
+	    - [x] On abstract classes https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
+	    - [ ] 
+
+	- [ ] DRY 
+	- [ ] KISS
+	- [ ] YAGNI
+	- [ ] Общие советы http://makedev.org/principles/general.html
+
+
     - [ ] Scalability:
         - [ ] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
         - [ ] Short series: 
@@ -483,6 +489,9 @@ Read on:
         - [ ] https://www.youtube.com/watch?v=IKD2-MAkXyQ
         - [ ] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
+
+- [ ] Debug
+	- [ ] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
 
 - ### System Design
     - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
