@@ -153,10 +153,6 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [x] postorder (DFS: left, right, self)
         - [x] preorder (DFS: self, left, right)
 
-_*Currently here*_
-- ### Prefix tree
-    - [ ] Prefix trees
-    - [ ] Implement
 
 - ### Trie
     - [x] Tries https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413
@@ -352,24 +348,18 @@ Read on:
     	- [x] https://habrahabr.ru/post/83269/
     	- [x] http://makedev.org/principles/solid/isp.html
     	- [x] http://makedev.org/principles/solid/dip.html
-
-   	
-
     - [ ] Additional on solid:
 		- [ ] http://www.oodesign.com/single-responsibility-principle.html
 	    - [ ] http://www.oodesign.com/open-close-principle.html
 	    - [ ] http://www.oodesign.com/liskov-s-substitution-principle.html
 	    - [ ] http://www.oodesign.com/interface-segregation-principle.html
 	    - [ ] http://www.oodesign.com/dependency-inversion-principle.html
-
 	- [x] http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
 	- [x] https://habrahabr.ru/post/87205/
-
 	- [x] OOP in Python:
 	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesBasics/toctree.html
 	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesDiggingDeeper/toctree.html
 	    - [x] On abstract classes https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
-
 	- [x] DRY 
 	- [x] KISS
 	- [x] YAGNI
@@ -489,11 +479,10 @@ Read on:
         - [ ] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
-- [ ] Debug
+- [x] Debug
 	- [x] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
 
-- ### System Design
-    - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
+_*Currently here*_
 - ### Design patterns
     - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [ ] Learn these patterns:
