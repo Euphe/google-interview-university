@@ -159,8 +159,8 @@ _*Currently here*_
     - [ ] Implement
 
 - ### Trie
-    - [ ] Tries
-    - [ ] Implement
+    - [x] Tries https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413
+    - [x] Implement
 
 - ### Binary search trees: BSTs
 	- [x] http://interactivepython.org/runestone/static/pythonds/Trees/SearchTreeImplementation.html
@@ -346,7 +346,7 @@ Read on:
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
 
     - [x] https://en.wikipedia.org/wiki/Object-oriented_programming
-    - [ ] https://tproger.ru/translations/oop-principles-cheatsheet/
+    - [x] https://tproger.ru/translations/oop-principles-cheatsheet/
     - [x] SOLID OOP Principles:
     	- [x] https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
     	- [x] https://habrahabr.ru/post/83269/
@@ -369,12 +369,11 @@ Read on:
 	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesBasics/toctree.html
 	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesDiggingDeeper/toctree.html
 	    - [x] On abstract classes https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
-	    - [ ] 
 
-	- [ ] DRY 
-	- [ ] KISS
-	- [ ] YAGNI
-	- [ ] Общие советы http://makedev.org/principles/general.html
+	- [x] DRY 
+	- [x] KISS
+	- [x] YAGNI
+	- [x] Общие советы http://makedev.org/principles/general.html
 
 
     - [ ] Scalability:
@@ -491,7 +490,7 @@ Read on:
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
 - [ ] Debug
-	- [ ] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
+	- [x] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
 
 - ### System Design
     - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
