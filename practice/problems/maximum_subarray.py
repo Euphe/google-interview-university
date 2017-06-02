@@ -32,3 +32,30 @@ def max_subar(nums):
 				max_sum = subar_sum
 				max_subar = subar
 	return max_sum or 0, max_subar
+
+def max_subar_dp(nums):
+	if not nums:
+		return 0
+
+	if len(nums) == 1:
+		return nums[0]
+
+	dp = [0 for num in nums]
+	dp[0] = nums[0]
+
+
+	max_val = nums[0]
+	for i, num in enumerate(nums):
+		if i == 0:
+			continue
+
+		dp[i] = nums[i] + (dp[i-1] if dp[i-1] > 0 else 0)
+		if dp[i] > max_val:
+			max_val = dp[i]
+
+	return max_val
+
+
+import random
+ints = [random.randint(-100, 100) for i in range(10000)]
+print(max_subar_dp(ints))
