@@ -21,13 +21,13 @@ def possible_parentheses(n, cur_text='(', open_par = 1, pairs = 0):
 		return [cur_text]
 
 	combinations = []
-	print('Cur text, open par, pairs', cur_text, open_par, pairs)
+	#print('Cur text, open par, pairs', cur_text, open_par, pairs)
 	if 2*n-len(cur_text) > open_par: #we can open a new pair
-		print('Can open a new pair')
+		#print('Can open a new pair')
 		combinations += possible_parentheses(n, cur_text+'(', open_par+1, pairs)
-	print('Combinations with open par', combinations)
+	#print('Combinations with open par', combinations)
 	if open_par > 0: #we can close a pair
-		print('Can close a pair')
+		#print('Can close a pair')
 		combinations += possible_parentheses(n, cur_text+')', open_par-1, pairs+1)
 	return combinations
 
