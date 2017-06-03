@@ -512,11 +512,12 @@ _*Currently here*_
         - [ ] flyweight
     - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
     - [ ] https://github.com/faif/python-patterns
-    - [ ] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
+    - [x] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
 
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
+## Indepth 
 - [ ] Improving my code quality
 	- [ ] https://sourcemaking.com/antipatterns
 	- [ ] https://sourcemaking.com/refactoring
@@ -526,8 +527,15 @@ _*Currently here*_
 
 - [ ] Improving my work ethic and approaches
 	- [ ] https://sourcemaking.com/antipatterns/software-project-management-antipatterns
-### Books, when the interviews are close
 
+
+### Books, in-depth
+- [ ] Python
+	- [ ] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/index.html
+
+## When interviews are close 
+
+### Books, when the interviews are close
 **Read first:**
 - [ ] Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
     http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
@@ -537,8 +545,15 @@ _*Currently here*_
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
-## Coding exercises/challenges
+### Once you're closer to the interview
+- [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
+- [ ] http://haseebq.com/how-not-to-bomb-your-offer-negotiation/
+- [ ] Cracking The Coding Interview Set 2:
+    - https://www.youtube.com/watch?v=4NIb9l3imAo
+    - https://www.youtube.com/watch?v=Eg5-tdAwclo
+    - https://www.youtube.com/watch?v=1fqxMuPmGak
 
+## Coding exercises/challenges
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 - [x] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
@@ -558,12 +573,4 @@ Take coding challenges every day, as many as you can.
     - Exercises for getting better at a given language: http://exercism.io/languages
 ## Other:
     - [ ] http://www.codefool.org/wiki_165/index.php?title=Google_Interview_Questions - primarily use as a source of topics to study
-
-## Once you're closer to the interview
-- [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
-- [ ] http://haseebq.com/how-not-to-bomb-your-offer-negotiation/
-- [ ] Cracking The Coding Interview Set 2:
-    - https://www.youtube.com/watch?v=4NIb9l3imAo
-    - https://www.youtube.com/watch?v=Eg5-tdAwclo
-    - https://www.youtube.com/watch?v=1fqxMuPmGak
 
