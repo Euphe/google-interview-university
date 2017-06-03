@@ -486,13 +486,20 @@ _*Currently here*_
 - ### Design patterns
     - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [ ] Learn these patterns:
+    	- [x] builder 
+    		- [x] https://github.com/faif/python-patterns/blob/master/creational/builder.py 
+    		- [x] https://sourcemaking.com/design_patterns/builder
+    		- [x] https://stackoverflow.com/questions/5788240/when-should-i-use-builder-design-pattern
         - [ ] strategy
         - [ ] singleton
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
+        - [x] adapter https://sourcemaking.com/design_patterns/adapter
+        - [ ] decorator 
         - [ ] visitor
-        - [ ] factory, abstract factory
+        - [x] factory, abstract factory https://sourcemaking.com/design_patterns/abstract_factory
+        - [ ] bridge - need to rehearse
+        	- [x] http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+        	- [x] https://gist.github.com/pazdera/1173009
+        	- [x] https://sourcemaking.com/design_patterns/bridge
         - [ ] facade
         - [ ] observer
         - [ ] proxy
@@ -503,10 +510,22 @@ _*Currently here*_
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
+    - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
+    - [ ] https://github.com/faif/python-patterns
+    - [ ] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
 
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
+- [ ] Improving my code quality
+	- [ ] https://sourcemaking.com/antipatterns
+	- [ ] https://sourcemaking.com/refactoring
+
+- [ ] Improving system architecture quality
+	- [ ] https://sourcemaking.com/antipatterns/software-architecture-antipatterns
+
+- [ ] Improving my work ethic and approaches
+	- [ ] https://sourcemaking.com/antipatterns/software-project-management-antipatterns
 ### Books, when the interviews are close
 
 **Read first:**
