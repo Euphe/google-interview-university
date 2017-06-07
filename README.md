@@ -65,6 +65,9 @@ This is my multi-month study plan for going from web developer (self-taught, no 
 
 - [ ] **Python**
     - [ ] [Python Cheat Sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/python-cheat-sheet-v1.pdf)
+    - [ ] Advanced: descriptors https://docs.python.org/3/howto/descriptor.html#descriptor-protocol
+    - [ ] Really advanced on metaclasses, previous article is a prequisite https://blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/
+    - [x] Metaclasses, with django ORM example https://habrahabr.ru/post/145835/
 
 
 ## The Daily Plan
@@ -150,14 +153,10 @@ After studying a topic make anki cards for all parts that need memorizing:
         - [x] postorder (DFS: left, right, self)
         - [x] preorder (DFS: self, left, right)
 
-_*Currently here*_
-- ### Prefix tree
-    - [ ] Prefix trees
-    - [ ] Implement
 
 - ### Trie
-    - [ ] Tries
-    - [ ] Implement
+    - [x] Tries https://medium.com/algorithms/trie-prefix-tree-algorithm-ee7ab3fe3413
+    - [x] Implement
 
 - ### Binary search trees: BSTs
 	- [x] http://interactivepython.org/runestone/static/pythonds/Trees/SearchTreeImplementation.html
@@ -340,38 +339,31 @@ Read on:
         - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
         - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
-    - [ ] Consistent Hashing: http://www.tom-e-white.com/2007/11/consistent-hashing.html
-    - [ ] NoSQL Patterns: http://horicky.blogspot.com/2009/11/nosql-patterns.html
-    - [ ] Optional: UML 2.0 Series: https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
-    - [ ] OOSE: Software Dev Using UML and Java (21 videos): 
-        - Can skip this if you have a great grasp of OO and OO design practices.
-        - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
-    - [ ] SOLID OOP Principles:
-        - [ ] https://tproger.ru/translations/oop-principles-cheatsheet/ 
-        - [ ] https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
-        - [ ] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
-        - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
-        - [ ] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
-        - [ ] S - Single Responsibility Principle | Single responsibility to each Object
-            - http://www.oodesign.com/single-responsibility-principle.html
-            - http://www.javacodegeeks.com/2011/11/solid-single-responsibility-principle.html
-            - more flavor: https://docs.google.com/open?id=0ByOwmqah_nuGNHEtcU5OekdDMkk
-        - [ ] O - Open/Closed Principal  | On production level Objects are ready for extension for not for modification
-            - http://www.oodesign.com/open-close-principle.html
-            - https://en.wikipedia.org/wiki/Open/closed_principle
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgN2M5MTkwM2EtNWFkZC00ZTI3LWFjZTUtNTFhZGZiYmUzODc1&hl=en
-        - [ ] L - Liskov Substitution Principal | Base Class and Derived class follow ‘IS A’ principal
-            - http://www.oodesign.com/liskov-s-substitution-principle.html
-            - http://stackoverflow.com/questions/56860/what-is-the-liskov-substitution-principle
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh&hl=en
-        - [ ] I - Interface segregation principle | clients should not be forced to implement interfaces they don't use
-            - http://www.oodesign.com/interface-segregation-principle.html
-            - Interface Segregation Principle in 5 minutes: https://www.youtube.com/watch?v=3CtAfl7aXAQ
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgOTViYjJhYzMtMzYxMC00MzFjLWJjMzYtOGJiMDc5N2JkYmJi&hl=en
-        - [ ] D - Dependency Inversion principle | Reduce the dependency In composition of objects.
-            - http://www.oodesign.com/dependency-inversion-principle.html
-            - http://stackoverflow.com/questions/62539/what-is-the-dependency-inversion-principle-and-why-is-it-important
-            - more flavor: http://docs.google.com/a/cleancoder.com/viewer?a=v&pid=explorer&chrome=true&srcid=0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz&hl=en
+
+    - [x] https://en.wikipedia.org/wiki/Object-oriented_programming
+    - [x] https://tproger.ru/translations/oop-principles-cheatsheet/
+    - [x] SOLID OOP Principles:
+    	- [x] https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+    	- [x] https://habrahabr.ru/post/83269/
+    	- [x] http://makedev.org/principles/solid/isp.html
+    	- [x] http://makedev.org/principles/solid/dip.html
+    - [ ] Additional on solid:
+		- [ ] http://www.oodesign.com/single-responsibility-principle.html
+	    - [ ] http://www.oodesign.com/open-close-principle.html
+	    - [ ] http://www.oodesign.com/liskov-s-substitution-principle.html
+	    - [ ] http://www.oodesign.com/interface-segregation-principle.html
+	    - [ ] http://www.oodesign.com/dependency-inversion-principle.html
+	- [x] http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
+	- [x] https://habrahabr.ru/post/87205/
+	- [x] OOP in Python:
+	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesBasics/toctree.html
+	    - [x] http://interactivepython.org/runestone/static/thinkcspy/ClassesDiggingDeeper/toctree.html
+	    - [x] On abstract classes https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
+	- [x] DRY 
+	- [x] KISS
+	- [x] YAGNI
+	- [x] Общие советы http://makedev.org/principles/general.html
+
     - [ ] Scalability:
         - [ ] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
         - [ ] Short series: 
@@ -485,20 +477,28 @@ Read on:
         - [ ] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
-- ### System Design
-    - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
+- [x] Debug
+	- [x] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
 
+_*Currently here*_
 - ### Design patterns
     - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [ ] https://sourcemaking.com/design_patterns
     - [ ] Learn these patterns:
+    	- [x] builder 
+    		- [x] https://github.com/faif/python-patterns/blob/master/creational/builder.py 
+    		- [x] https://sourcemaking.com/design_patterns/builder
+    		- [x] https://stackoverflow.com/questions/5788240/when-should-i-use-builder-design-pattern
         - [ ] strategy https://sourcemaking.com/design_patterns/strategy
         - [x] singleton https://sourcemaking.com/design_patterns/singleton/python/1
-        - [ ] adapter
-        - [ ] prototype
-        - [ ] decorator
+        - [x] adapter https://sourcemaking.com/design_patterns/adapter
+        - [ ] decorator 
         - [ ] visitor
-        - [ ] factory, abstract factory
+        - [x] factory, abstract factory https://sourcemaking.com/design_patterns/abstract_factory
+        - [ ] bridge - need to rehearse
+        	- [x] http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+        	- [x] https://gist.github.com/pazdera/1173009
+        	- [x] https://sourcemaking.com/design_patterns/bridge
         - [ ] facade
         - [ ] observer
         - [ ] proxy
@@ -509,15 +509,36 @@ Read on:
         - [ ] iterator
         - [ ] composite
         - [ ] flyweight
+    - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
+    - [ ] https://github.com/faif/python-patterns
+    - [x] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
 
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
+
 ## Python specifics
     -[ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
-    
-### Books, when the interviews are close
 
+## Indepth 
+- [ ] Improving my code quality
+	- [ ] https://sourcemaking.com/antipatterns
+	- [ ] https://sourcemaking.com/refactoring
+
+- [ ] Improving system architecture quality
+	- [ ] https://sourcemaking.com/antipatterns/software-architecture-antipatterns
+
+- [ ] Improving my work ethic and approaches
+	- [ ] https://sourcemaking.com/antipatterns/software-project-management-antipatterns
+
+
+### Books, in-depth
+- [ ] Python
+	- [ ] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/index.html
+
+## When interviews are close 
+
+### Books, when the interviews are close
 **Read first:**
 - [ ] Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition:
     http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html
@@ -527,10 +548,7 @@ Read on:
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
-
-
 ## Coding exercises/challenges
-
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 - [x] Great intro (copied from System Design section): Algorithm design: http://www.hiredintech.com/algorithm-design/
@@ -550,12 +568,5 @@ Take coding challenges every day, as many as you can.
     - Exercises for getting better at a given language: http://exercism.io/languages
 ## Other:
     - [ ] http://www.codefool.org/wiki_165/index.php?title=Google_Interview_Questions - primarily use as a source of topics to study
-
-## Once you're closer to the interview
-- [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
-- [ ] http://haseebq.com/how-not-to-bomb-your-offer-negotiation/
-- [ ] Cracking The Coding Interview Set 2:
-    - https://www.youtube.com/watch?v=4NIb9l3imAo
-    - https://www.youtube.com/watch?v=Eg5-tdAwclo
-    - https://www.youtube.com/watch?v=1fqxMuPmGak
-
+    - [ ] http://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/
+    - [ ] http://haseebq.com/how-not-to-bomb-your-offer-negotiation/
