@@ -272,8 +272,7 @@ Read on:
     - [x] https://www.quora.com/How-do-you-explain-NP-Complete-and-NP-hard-to-a-child
 
 - ### Garbage collection
-    - [ ] GC in Python: https://www.youtube.com/watch?v=iHVs_HkjdmI
-    - [ ] Deep Dive Python: Garbage Collection in CPython: https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3
+    - [x] GC in Python: https://www.quora.com/How-does-garbage-collection-in-Python-work
 
 - ### Processes and Threads
     - [ ] Computer Science 162 - Operating Systems (25 videos):
@@ -348,6 +347,8 @@ Read on:
         - Can skip this if you have a great grasp of OO and OO design practices.
         - https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO
     - [ ] SOLID OOP Principles:
+        - [ ] https://tproger.ru/translations/oop-principles-cheatsheet/ 
+        - [ ] https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
         - [ ] Bob Martin SOLID Principles of Object Oriented and Agile Design: https://www.youtube.com/watch?v=TMuno5RZNeE
         - [ ] SOLID Design Patterns in C#: https://www.youtube.com/playlist?list=PL8m4NUhTQU48oiGCSgCP1FiJEcg_xJzyQ
         - [ ] SOLID Principles: https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
@@ -462,8 +463,8 @@ Read on:
             - Design a cache system: https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/
 
 - ### Unicode
-    - [ ] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
-    - [ ] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text: http://kunststube.net/encoding
+    - [x] The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets: http://www.joelonsoftware.com/articles/Unicode.html
+    - [x] What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text http://kunststube.net/encoding/
 
 - ### Testing
     - To cover:
@@ -486,11 +487,13 @@ Read on:
 
 - ### System Design
     - [ ] https://www.hiredintech.com/classrooms/system-design/lesson/52
+
 - ### Design patterns
     - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
+    - [ ] https://sourcemaking.com/design_patterns
     - [ ] Learn these patterns:
-        - [ ] strategy
-        - [ ] singleton
+        - [ ] strategy https://sourcemaking.com/design_patterns/strategy
+        - [x] singleton https://sourcemaking.com/design_patterns/singleton/python/1
         - [ ] adapter
         - [ ] prototype
         - [ ] decorator
@@ -510,6 +513,9 @@ Read on:
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
+## Python specifics
+    -[ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
+    
 ### Books, when the interviews are close
 
 **Read first:**
@@ -520,6 +526,8 @@ Read on:
 - [ ] Cracking the Coding Interview, 6th Edition:
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
+
+
 
 ## Coding exercises/challenges
 
