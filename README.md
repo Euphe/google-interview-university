@@ -489,7 +489,7 @@ _*Currently here*_
     		- [x] https://github.com/faif/python-patterns/blob/master/creational/builder.py 
     		- [x] https://sourcemaking.com/design_patterns/builder
     		- [x] https://stackoverflow.com/questions/5788240/when-should-i-use-builder-design-pattern
-        - [ ] strategy https://sourcemaking.com/design_patterns/strategy
+        - [x] strategy https://sourcemaking.com/design_patterns/strategy
         - [x] singleton https://sourcemaking.com/design_patterns/singleton/python/1
         - [x] adapter https://sourcemaking.com/design_patterns/adapter
         - [ ] decorator 
@@ -500,19 +500,24 @@ _*Currently here*_
         	- [x] https://gist.github.com/pazdera/1173009
         	- [x] https://sourcemaking.com/design_patterns/bridge
         - [ ] facade
-        - [ ] observer
+        - [x] observer https://sourcemaking.com/design_patterns/observer
         - [ ] proxy
         - [ ] delegate
-        - [ ] command
-        - [ ] state
-        - [ ] memento
-        - [ ] iterator
+        - [x] command https://sourcemaking.com/design_patterns/command
+        - [x] state https://sourcemaking.com/design_patterns/state
+        - [x] memento https://sourcemaking.com/design_patterns/memento
+        - [x] iterator https://sourcemaking.com/design_patterns/iterator
         - [ ] composite
         - [ ] flyweight
     - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
     - [ ] https://github.com/faif/python-patterns
     - [x] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
 
+    - MVC
+        - [x] http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html
+        - [x] http://djangobook.com/model-view-controller-design-pattern/
+        - [x] https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names
+        - [ ] https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
