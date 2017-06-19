@@ -482,7 +482,6 @@ Read on:
 
 _*Currently here*_
 - ### Design patterns
-    - [ ] Quick UML review: https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3
     - [ ] https://sourcemaking.com/design_patterns
     - [ ] Learn these patterns:
     	- [x] builder 
@@ -518,12 +517,17 @@ _*Currently here*_
         - [x] http://djangobook.com/model-view-controller-design-pattern/
         - [x] https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names
         - [ ] https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/
+        
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
 
 ## Python specifics
-    -[ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
+    - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
+
+## Javascript
+    - React
+        - [ ] Timeline https://daveceddia.com/timeline-for-learning-react/
 
 ## Indepth 
 - [ ] Improving my code quality
