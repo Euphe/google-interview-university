@@ -365,7 +365,6 @@ Read on:
 	- [x] Общие советы http://makedev.org/principles/general.html
 
     - [ ] Scalability:
-        - [ ] Great overview: https://www.youtube.com/watch?v=-W9F__D3oY4
         - [ ] Short series: 
             - http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
             - http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
@@ -375,20 +374,13 @@ Read on:
         - [ ] Fallacies of Distributed Computing Explained: https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
         - [ ] Pragmatic Programming Techniques: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html
             - extra: Google Pregel Graph Processing: http://horicky.blogspot.com/2010/07/google-pregel-graph-processing.html
-        - [ ] Jeff Dean - Building Software Systems At Google and Lessons Learned: https://www.youtube.com/watch?v=modXC5IWTJI
         - [ ] Introduction to Architecting Systems for Scale: http://lethain.com/introduction-to-architecting-systems-for-scale/
-        - [ ] Scaling mobile games to a global audience using App Engine and Cloud Datastore: https://www.youtube.com/watch?v=9nWyWwY2Onc
-        - [ ] How Google Does Planet-Scale Engineering for Planet-Scale Infra: https://www.youtube.com/watch?v=H4vMcD7zKM0
         - [ ] The Importance of Algorithms: https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/
         - [ ] Sharding: http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html
         - [ ] Scale at Facebook (2009): https://www.infoq.com/presentations/Scale-at-Facebook
-        - [ ] Scale at Facebook (2012), "Building for a Billion Users": https://www.youtube.com/watch?v=oodS71YtkGU
-        - [ ] Engineering for the Long Game - Astrid Atkinson Keynote: https://www.youtube.com/watch?v=p0jGmgIrf_M&list=PLRXxvay_m8gqVlExPC5DG3TGWJTaBgqSA&index=4
         - [ ] 7 Years Of YouTube Scalability Lessons In 30 Minutes: http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html
-            - video: https://www.youtube.com/watch?v=G-lGCC4KKok
         - [ ] How PayPal Scaled To Billions Of Transactions Daily Using Just 8VMs: http://highscalability.com/blog/2016/8/15/how-paypal-scaled-to-billions-of-transactions-daily-using-ju.html
         - [ ] How to Remove Duplicates in Large Datasets: https://blog.clevertap.com/how-to-remove-duplicates-in-large-datasets/
-        - [ ] A look inside Etsy's scale and engineering culture with Jon Cowie: https://www.youtube.com/watch?v=3vV4YiqKm1o
         - [ ] What Led Amazon to its Own Microservices Architecture: http://thenewstack.io/led-amazon-microservices-architecture/
         - [ ] To Compress Or Not To Compress, That Was Uber's Question: https://eng.uber.com/trip-data-squeeze/
         - [ ] Asyncio Tarantool Queue, Get In The Queue: http://highscalability.com/blog/2016/3/3/asyncio-tarantool-queue-get-in-the-queue.html
@@ -418,7 +410,6 @@ Read on:
         - [ ] ESPN's Architecture At Scale - Operating At 100,000 Duh Nuh Nuhs Per Second: http://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html
         - [ ] See "Messaging, Serialization, and Queueing Systems" way below for info on some of the technologies that can glue services together
         - [ ] Twitter:
-            - O'Reilly MySQL CE 2011: Jeremy Cole, "Big and Small Data at @Twitter": https://www.youtube.com/watch?v=5cKTP36HVgI
             - Timelines at Scale: https://www.infoq.com/presentations/Twitter-Timeline-Scalability
         - For even more, see "Mining Massive Datasets" video series in the Video Series section.
     - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
@@ -517,7 +508,7 @@ _*Currently here*_
         - [x] http://djangobook.com/model-view-controller-design-pattern/
         - [x] https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names
         - [ ] https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/
-        
+
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
