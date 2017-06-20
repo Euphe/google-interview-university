@@ -221,40 +221,45 @@ device.switch_bluetooth_on(sputnik_radio)
 """
 
 class Shooter:
+    accuracy = 0
     def shoot(self, weapon):
         weapon.make_shot(self)
 
 class Soldier(Shooter):
-    pass
+    accuracy = 50
 
 class Sniper(Shooter):
-    pass
+    accuracy = 100
 
 class Weapon:
+    accuracy_modifier = 0
     def make_shot(self, shooter):
         pass
 
 class AssaultRifle(Weapon):
+    accuracy_modifier = 0.7
     def make_shot(self, shooter):
         if isinstance(shooter, Soldier):
-            print('Soldier burst fires the assault rifle')
+            print('Soldier burst fires the assault rifle with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
         elif isinstance(shooter, Sniper):
-            print('Sniper fires a signle shot from the assault rifle')
+            print('Sniper fires a signle shot from the assault rifle with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
 
 class Pistol(Weapon):
+    accuracy_modifier = 0.3
     def make_shot(self, shooter):
         if isinstance(shooter, Soldier):
-            print('Soldier fires the pistol')
+            print('Soldier fires the pistol with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
         elif isinstance(shooter, Sniper):
-            print('Sniper fires the pistol')
+            print('Sniper fires the pistol with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
         
 
 class SniperRifle(Weapon):
+    accuracy_modifier = 1
     def make_shot(self, shooter):
         if isinstance(shooter, Soldier):
-            print('Soldier fires sniper rifle inaccurately')
+            print('Soldier fires sniper rifle with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
         elif isinstance(shooter, Sniper):
-            print('Sniper fires the sniper rifle')
+            print('Sniper fires the sniper rifle with accuracy {}'.format(shooter.accuracy*self.accuracy_modifier))
 
 #Shooting range
 pistol = Pistol()
