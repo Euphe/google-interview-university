@@ -473,8 +473,8 @@ Read on:
 
 _*Currently here*_
 - ### Design patterns
-    - [ ] https://sourcemaking.com/design_patterns
-    - [ ] Learn these patterns:
+    - [x] https://sourcemaking.com/design_patterns
+    - [x] Learn these patterns:
     	- [x] builder 
     		- [x] https://github.com/faif/python-patterns/blob/master/creational/builder.py 
     		- [x] https://sourcemaking.com/design_patterns/builder
@@ -489,15 +489,13 @@ _*Currently here*_
         	- [x] http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
         	- [x] https://gist.github.com/pazdera/1173009
         	- [x] https://sourcemaking.com/design_patterns/bridge
-        - [ ] facade
+        - [x] facade
         - [x] observer https://sourcemaking.com/design_patterns/observer
-        - [ ] delegate
         - [x] command https://sourcemaking.com/design_patterns/command
         - [x] state https://sourcemaking.com/design_patterns/state
         - [x] memento https://sourcemaking.com/design_patterns/memento
         - [x] iterator https://sourcemaking.com/design_patterns/iterator
         - [x] composite
-        - [ ] flyweight
     - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
     - [ ] https://github.com/faif/python-patterns
     - [x] http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html
