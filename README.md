@@ -482,22 +482,21 @@ _*Currently here*_
         - [x] strategy https://sourcemaking.com/design_patterns/strategy
         - [x] singleton https://sourcemaking.com/design_patterns/singleton/python/1
         - [x] adapter https://sourcemaking.com/design_patterns/adapter
-        - [ ] decorator 
-        - [ ] visitor
+        - [x] decorator 
+        - [x] visitor
         - [x] factory, abstract factory https://sourcemaking.com/design_patterns/abstract_factory
-        - [ ] bridge - need to rehearse
+        - [x] bridge - need to rehearse
         	- [x] http://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
         	- [x] https://gist.github.com/pazdera/1173009
         	- [x] https://sourcemaking.com/design_patterns/bridge
         - [ ] facade
         - [x] observer https://sourcemaking.com/design_patterns/observer
-        - [ ] proxy
         - [ ] delegate
         - [x] command https://sourcemaking.com/design_patterns/command
         - [x] state https://sourcemaking.com/design_patterns/state
         - [x] memento https://sourcemaking.com/design_patterns/memento
         - [x] iterator https://sourcemaking.com/design_patterns/iterator
-        - [ ] composite
+        - [x] composite
         - [ ] flyweight
     - [x] Good overview of different python features and some design patterns https://www.toptal.com/python/python-design-patterns
     - [ ] https://github.com/faif/python-patterns
