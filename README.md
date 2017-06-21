@@ -56,11 +56,6 @@ This is my multi-month study plan for going from web developer (self-taught, no 
     - [ ] https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1
     - [ ] http://www.kpcb.com/blog/lessons-learned-how-google-thinks-about-hiring-management-and-culture
     - [ ] http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/
-    - [ ] Cracking The Coding Interview Set 1:
-        - [ ] https://www.youtube.com/watch?v=rEJzOhC5ZtQ
-        - [ ] https://www.youtube.com/watch?v=aClxtDcdpsQ
-    - [ ] How to Get a Job at the Big 4:
-        - [ ] https://www.youtube.com/watch?v=YJZCUhxNCv8
     - [ ] http://alexbowe.com/failing-at-google-interviews/
 
 - [ ] **Python**
@@ -274,9 +269,6 @@ Read on:
     - [x] GC in Python: https://www.quora.com/How-does-garbage-collection-in-Python-work
 
 - ### Processes and Threads
-    - [ ] Computer Science 162 - Operating Systems (25 videos):
-        - for precesses and threads see videos 1-11
-        - https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c
     - https://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
     - Covers:
         - Processes, Threads, Concurrency issues
@@ -298,14 +290,9 @@ Read on:
         - Context switching
             - How context switching is initiated by the operating system and underlying hardware
     - [ ] concurrency in Python:
-        - [ ] Short series on threads: https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1
-        - [ ] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
         - [ ] Python GIL 
             - [x] https://softwareengineering.stackexchange.com/questions/186889/why-was-python-written-with-the-gil/186909#186909
             - [ ] https://wiki.python.org/moin/GlobalInterpreterLock
-        - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
-        - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
-        - [ ] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
         - [ ] http://www.python-course.eu/threads.php
 
 
@@ -330,16 +317,15 @@ Read on:
     - [ ] https://www.quora.com/How-do-I-prepare-to-answer-design-questions-in-a-technical-interview?redirected_qid=1500023
     - [ ] 8 Things You Need to Know Before a System Design Interview: http://blog.gainlo.co/index.php/2015/10/22/8-things-you-need-to-know-before-system-design-interviews/
     - [ ] Algorithm design: http://www.hiredintech.com/algorithm-design/
-    - [ ] Database Normalization - 1NF, 2NF, 3NF and 4NF: https://www.youtube.com/watch?v=UrYLYV7WSHM
+    - [ ] Database Normalization - 1NF, 2NF, 3NF and 4NF
     - [ ] https://github.com/checkcheckzz/system-design-interview - There are a lot of resources in this one. Look through the articles and examples. I put some of them below.
     - [ ] How to ace a systems design interview: http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/
     - [ ] Numbers Everyone Should Know: http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/
     - [ ] How long does it take to make a context switch?: http://blog.tsunanet.net/2010/11/how-long-does-it-take-to-make-context.html
-    - [ ] Transactions Across Datacenters: https://www.youtube.com/watch?v=srOgpXECblk
+    - [ ] Transactions Across Datacenters
     - [ ] A plain english introduction to CAP Theorem: http://ksat.me/a-plain-english-introduction-to-cap-theorem/
     - [ ] Paxos Consensus algorithm: 
         - short video: https://www.youtube.com/watch?v=s8JqcZtvnsM
-        - extended video with use case and multi-paxos: https://www.youtube.com/watch?v=JEpsBg0AO6o
         - paper: http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf
 
     - [x] https://en.wikipedia.org/wiki/Object-oriented_programming
@@ -457,23 +443,18 @@ Read on:
         - what are mock objects
         - what is integration testing
         - what is dependency injection
-    - [ ] Agile Software Testing with James Bach: https://www.youtube.com/watch?v=SAhJf36_u5U
-    - [ ] Open Lecture by James Bach on Software Testing: https://www.youtube.com/watch?v=ILkT_HV9DVU
     - [ ] Steve Freeman - Test-Driven Development (that’s not what we meant): https://vimeo.com/83960706
         - slides: http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf
-    - [ ] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html
-    - [ ] Is TDD dead? https://www.youtube.com/watch?v=z9quxZsLcfo
-    - [ ] Video series (152 videos) - not all are needed: https://www.youtube.com/watch?v=nzJapzxH_rE&list=PLAwxTw4SYaPkWVHeC_8aSIbSxE_NXI76g
+    - [ ] TDD is dead. Long live testing.: http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.htmlg
     - [ ] Test-Driven Web Development with Python: http://www.obeythetestinggoat.com/pages/book.html#toc
     - [ ] Dependency injection:
-        - [ ] https://www.youtube.com/watch?v=IKD2-MAkXyQ
         - [ ] http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html
     - [ ] How to write tests: http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html
 
 - [x] Debug
 	- [x] http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
 
-_*Currently here*_
+
 - ### Design patterns
     - [x] https://sourcemaking.com/design_patterns
     - [x] Learn these patterns:
@@ -511,7 +492,7 @@ _*Currently here*_
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
 
-
+_*Currently here*_
 ## Python specifics
     - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
     - [ ] solve all : http://pyobject.ru/blog/2010/02/04/python-quiz/
@@ -522,6 +503,7 @@ _*Currently here*_
         - [ ] modules
         - [ ] classes
         - [ ] metaclasses and descriptors
+    - [ ] https://habrahabr.ru/post/50026/
     - [ ] https://habrahabr.ru/post/132554/
     - [ ] http://www.python-course.eu/pipes.php
     - [ ] http://www.python-course.eu/sys_module.php
@@ -529,8 +511,12 @@ _*Currently here*_
     - [ ] https://habrahabr.ru/post/193890/
 
 ## Javascript
+    - Core JS - Estimated completition time: 3 days.
+        - [ ] Home: rehearse lang basics https://javascript.info/
+
     - React
         - [ ] Timeline https://daveceddia.com/timeline-for-learning-react/
+
 
 ## Indepth 
 - [ ] Improving my code quality
@@ -570,7 +556,6 @@ Take coding challenges every day, as many as you can.
     - http://www.javaprobs.com/
     - http://algorithms.tutorialhorizon.com/
     - LeetCode: https://leetcode.com/
-        - Solved: 1
     - Project Euler (math-focused): https://projecteuler.net/index.php?section=problems
     - Codility: https://codility.com/programmers/
     - InterviewCake: https://www.interviewcake.com/
