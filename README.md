@@ -300,11 +300,13 @@ Read on:
     - [ ] concurrency in Python:
         - [ ] Short series on threads: https://www.youtube.com/playlist?list=PL1H1sBF1VAKVMONJWJkmUh6_p8g4F2oy1
         - [ ] Python Threads: https://www.youtube.com/watch?v=Bs7vPNbB9JM
-        - [ ] Understanding the Python GIL (2010): https://www.youtube.com/watch?v=Obt-vMVdM8s
-            - reference: http://www.dabeaz.com/GIL
+        - [ ] Python GIL 
+            - [x] https://softwareengineering.stackexchange.com/questions/186889/why-was-python-written-with-the-gil/186909#186909
+            - [ ] https://wiki.python.org/moin/GlobalInterpreterLock
         - [ ] David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015: https://www.youtube.com/watch?v=MCs5OvhV9S4
         - [ ] Keynote David Beazley - Topics of Interest (Python Asyncio): https://www.youtube.com/watch?v=ZzfHjytDceU
         - [ ] Mutex in Python: https://www.youtube.com/watch?v=0zaPs8OtyKY
+        - [ ] http://www.python-course.eu/threads.php
 
 
     Scalability and System Design are very large topics with many topics and resources, since there is a lot to consider 
@@ -512,6 +514,18 @@ _*Currently here*_
 
 ## Python specifics
     - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
+    - [ ] solve all : http://pyobject.ru/blog/2010/02/04/python-quiz/
+        - Solutions https://habrahabr.ru/post/145369/
+        - [x] data types, etc
+        - [x] functions
+        - [ ] iterators
+        - [ ] modules
+        - [ ] classes
+        - [ ] metaclasses and descriptors
+    - [ ] https://habrahabr.ru/post/132554/
+    - [ ] http://www.python-course.eu/pipes.php
+    - [ ] http://www.python-course.eu/sys_module.php
+    - [ ] http://www.python-course.eu/exception_handling.php
 
 ## Javascript
     - React

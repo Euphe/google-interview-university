@@ -1,69 +1,34 @@
 """
-Задача:
-Сделать пицерию.
+simple decorator
+"""
+import time 
 
-В меню пицерии различные пиццы. Пиццы создаются комбинациями различных компонентов.
+#a decorator that measures execution time
+def costly(x):
+	time.sleep(x)
+	print('Slept for {}'.format(x))
 
-Тесто:
-- пышное
-- тонкое
+def measure_time(f):
+	def wrapper(x):
+		timer = time.time()
+		f(x)
+		timer = time.time() - timer
+		print('Executed in {}'.format(timer))
+	return wrapper
 
-Добавки:
-- мясо
-- помидоры
-- сыр
+costly(1)
 
-Соусы:
-- кетчуп
-- майонез
+wrapped = measure_time(costly)
+wrapped(1)
 
 """
+python syntax
+"""
 
-#Применим decorator
+#decorator syntax
+@measure_time
+def costly(x):
+	time.sleep(x)
+	print('Slept for {}'.format(x))
 
-class Pizzeria:
-	pass
-
-class Component:
-	
-	def get_description(self):
-		return self.__class__.name
-
-	def get_cost(self):
-		return self.__class__.cost
-
-class ThinPizza(Component):
-	cost = 0.75
-	name = 'Thin pizza'
-
-class CrustyPizza(Component):
-	cost = 1
-	name = 'Crusty pizza'
-
-class Decorator(Component):
-	def __init__(self, component):
-		self.__component = component
-
-	def get_cost(self):
-		return self.cost + self.__component.get_cost()
-
-	def get_description(self):
-		return self.name +' + ' + self.__component.get_description()
-
-class Meat(Decorator):
-	cost = 0.5
-	name = 'Meat'
-
-class Ketchup(Decorator):
-	cost = 0.1
-	name = 'Ketchup'
-
-class Mayo(Decorator):
-	cost = 0.1
-	name = 'Mayo'
-
-class PremadeMeatKetchupThinPizza(Component):
-	cost = 1.35
-	name = 'Meat + Ketchup + Thin pizza'
-
-pizza = Mayo(PremadeMeatKetchupThinPizza())
+costly(1)
