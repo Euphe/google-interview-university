@@ -526,6 +526,7 @@ _*Currently here*_
     - [ ] http://www.python-course.eu/pipes.php
     - [ ] http://www.python-course.eu/sys_module.php
     - [ ] http://www.python-course.eu/exception_handling.php
+    - [ ] https://habrahabr.ru/post/193890/
 
 ## Javascript
     - React
