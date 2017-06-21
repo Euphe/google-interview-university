@@ -499,7 +499,7 @@ _*Currently here*_
         - Solutions https://habrahabr.ru/post/145369/
         - [x] data types, etc
         - [x] functions
-        - [ ] iterators
+        - [x] iterators
         - [ ] modules
         - [ ] classes
         - [ ] metaclasses and descriptors
