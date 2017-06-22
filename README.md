@@ -496,17 +496,18 @@ _*Currently here*_
 ## Python specifics
     - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
     - [ ] solve all : http://pyobject.ru/blog/2010/02/04/python-quiz/
-        - Solutions https://habrahabr.ru/post/145369/
+        - Solutions 1 https://habrahabr.ru/post/145369/
+        - Solutions 2 https://habrahabr.ru/post/147783/
         - [x] data types, etc
         - [x] functions
         - [x] iterators
-        - [ ] modules
-        - [ ] classes
-        - [ ] metaclasses and descriptors
-    - [ ] https://habrahabr.ru/post/50026/
+        - [x] modules
+        - [x] classes
+        - [x] metaclasses and descriptors
+    - [x] https://habrahabr.ru/post/50026/
     - [ ] https://habrahabr.ru/post/132554/
     - [ ] http://www.python-course.eu/pipes.php
-    - [ ] http://www.python-course.eu/sys_module.php
+    - [x] http://www.python-course.eu/sys_module.php
     - [ ] http://www.python-course.eu/exception_handling.php
     - [ ] https://habrahabr.ru/post/193890/
 
