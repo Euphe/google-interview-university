@@ -487,7 +487,6 @@ Read on:
         - [x] http://reinout.vanrees.org/weblog/2011/12/13/django-mvc-explanation.html
         - [x] http://djangobook.com/model-view-controller-design-pattern/
         - [x] https://docs.djangoproject.com/en/1.11/faq/general/#django-appears-to-be-a-mvc-framework-but-you-call-the-controller-the-view-and-the-view-the-template-how-come-you-don-t-use-the-standard-names
-        - [ ] https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/
 
 - ### SQL
     - [ ] https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/
@@ -495,7 +494,7 @@ Read on:
 _*Currently here*_
 ## Python specifics
     - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
-    - [ ] solve all : http://pyobject.ru/blog/2010/02/04/python-quiz/
+    - [x] solve all : http://pyobject.ru/blog/2010/02/04/python-quiz/
         - Solutions 1 https://habrahabr.ru/post/145369/
         - Solutions 2 https://habrahabr.ru/post/147783/
         - [x] data types, etc
@@ -506,10 +505,10 @@ _*Currently here*_
         - [x] metaclasses and descriptors
     - [x] https://habrahabr.ru/post/50026/
     - [ ] https://habrahabr.ru/post/132554/
-    - [ ] http://www.python-course.eu/pipes.php
+    - [ ] I dont understand at all, I need some pipe prequesites http://www.python-course.eu/pipes.php
     - [x] http://www.python-course.eu/sys_module.php
-    - [ ] http://www.python-course.eu/exception_handling.php
-    - [ ] https://habrahabr.ru/post/193890/
+    - [x] http://www.python-course.eu/exception_handling.php
+    - [x] https://habrahabr.ru/post/193890/
 
 ## Javascript
     - Core JS - Estimated completition time: 3 days.
