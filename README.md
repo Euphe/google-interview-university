@@ -512,7 +512,7 @@ _*Currently here*_
 
 ## Javascript
     - Core JS - Estimated completition time: 3 days.
-        - [ ] Home: rehearse lang basics https://javascript.info/
+        - [ ] rehearse lang basics https://javascript.info/
 
     - React
         - [ ] Timeline https://daveceddia.com/timeline-for-learning-react/
