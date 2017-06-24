@@ -546,6 +546,11 @@ _*Currently here*_
     - http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
+##Misc interview questions prep
+Where you will be in 5 years and other stuff
+- [ ] Not a lot of detail, but a broad range of topics http://www.programmerinterview.com
+
+
 ## Coding exercises/challenges
 Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
