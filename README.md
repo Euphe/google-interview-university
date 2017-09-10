@@ -419,6 +419,7 @@ _*Currently here*_
     - [x] Basics
     - [ ] Methods and interfaces - currently covered up to readers
     - [ ] Concurrency
+- https://gobyexample.com/
 - Exercism tasks http://exercism.io/languages/go/about
 
 ## Javascript
