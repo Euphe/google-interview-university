@@ -439,6 +439,12 @@ _*Currently here*_
 
 ### Ansible 
 - [x] Overview https://www.ansible.com/how-ansible-works
+- [x] http://docs.ansible.com/ansible/latest/intro_getting_started.html
+- [x] http://docs.ansible.com/ansible/latest/intro_inventory.html
+- [x] http://docs.ansible.com/ansible/latest/intro_adhoc.html
+- [ ] http://docs.ansible.com/ansible/latest/playbooks_variables.html
+- http://docs.ansible.com/ansible/latest/playbooks.html
+    - [x] http://docs.ansible.com/ansible/latest/playbooks_intro.html
 
 ### Linux
 - Apt 
