@@ -441,8 +441,12 @@ _*Currently here*_
 - [x] Overview https://www.ansible.com/how-ansible-works
 
 ### Linux
-- [ ] Apt https://wiki.debian.org/Apt
-    - [ ] Ubuntu https://help.ubuntu.com/community/AptGet/Howto#auto-apt
+- Apt 
+	- [x] https://wiki.debian.org/Apt
+    - [x] Ubuntu https://help.ubuntu.com/community/AptGet/Howto#auto-apt
+    - [x] https://wiki.debian.org/AptCLI
+- dpkg
+	- [ ] https://wiki.debian.org/DebianPackageManagement
 - [ ] Tar https://www.computerhope.com/unix/utar.htm
 
 ## Meta 
