@@ -442,9 +442,18 @@ _*Currently here*_
 - [x] http://docs.ansible.com/ansible/latest/intro_getting_started.html
 - [x] http://docs.ansible.com/ansible/latest/intro_inventory.html
 - [x] http://docs.ansible.com/ansible/latest/intro_adhoc.html
-- [ ] http://docs.ansible.com/ansible/latest/playbooks_variables.html
+- [x] http://docs.ansible.com/ansible/latest/playbooks_variables.html
 - http://docs.ansible.com/ansible/latest/playbooks.html
     - [x] http://docs.ansible.com/ansible/latest/playbooks_intro.html
+    - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse.html
+        - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse_includes.html
+        - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html
+    - [ ] http://docs.ansible.com/ansible/latest/playbooks_best_practices.html
+
+- Extras:
+    - [ ] http://docs.ansible.com/ansible/latest/playbooks_templating.html
+    - [ ] http://docs.ansible.com/ansible/latest/playbooks_conditionals.html
+    - [ ] http://docs.ansible.com/ansible/latest/playbooks_loops.html
 
 ### Linux
 - Apt 
@@ -454,6 +463,11 @@ _*Currently here*_
 - dpkg
 	- [ ] https://wiki.debian.org/DebianPackageManagement
 - [ ] Tar https://www.computerhope.com/unix/utar.htm
+
+### Guides from the frontlines
+- [ ] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
+    - A well-written guide, explains all steps and settings
+    - Good ansible playbook organization
 
 ## Meta 
 - [ ] Improving my code quality
