@@ -446,8 +446,8 @@ _*Currently here*_
 - http://docs.ansible.com/ansible/latest/playbooks.html
     - [x] http://docs.ansible.com/ansible/latest/playbooks_intro.html
     - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse.html
-        - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse_includes.html
-        - [ ] http://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html
+        - [x] http://docs.ansible.com/ansible/latest/playbooks_reuse_includes.html
+        - [x] http://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html
     - [ ] http://docs.ansible.com/ansible/latest/playbooks_best_practices.html
 
 - Extras:
