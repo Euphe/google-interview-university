@@ -425,6 +425,8 @@ _*Currently here*_
 ## Javascript
 - Core JS - Estimated completition time: 3 days.
     - [ ] rehearse lang basics https://javascript.info/
+    - [x] https://javascript.info/async
+    
 - VueJS 
     - https://vuejs.org/v2/guide/
         - [x] Essentials
@@ -472,8 +474,11 @@ _*Currently here*_
 	- [ ] https://wiki.debian.org/DebianPackageManagement
 - [ ] Tar https://www.computerhope.com/unix/utar.htm
 
+### Rabbitmq
+- [ ] Javascript helloworld
+
 ### Guides from the frontlines
-- [ ] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
+- [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
     - A well-written guide, explains all steps and settings
     - Good ansible playbook organization
 
