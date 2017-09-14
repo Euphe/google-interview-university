@@ -432,6 +432,14 @@ _*Currently here*_
         - [ ] Reusability and composition
         - [ ] Tooling
 
+## Typescript
+- http://www.typescriptlang.org/docs/handbook/interfaces.html#toc-handbook
+    - [x] http://www.typescriptlang.org/docs/handbook/basic-types.html
+    - [x] http://www.typescriptlang.org/docs/handbook/variable-declarations.html
+    - [x] http://www.typescriptlang.org/docs/handbook/interfaces.html
+    - [x] Read up to Advanced techniques - http://www.typescriptlang.org/docs/handbook/classes.html
+
+
 ## Devops
 
 ### Docker
