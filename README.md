@@ -393,6 +393,17 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [ ] Subquery
     - [ ] Union, intersection
 
+## MSSQL
+- [ ] https://docs.microsoft.com/en-us/sql/relational-databases/databases/contained-databases
+- [ ] https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-user
+- [x] https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-login
+- [x] https://docs.microsoft.com/en-us/sql/relational-databases/databases/databases
+- [x] User-Schema separation https://msdn.microsoft.com/en-us/library/ms190387(v=sql.105).aspx
+- [x] https://msdn.microsoft.com/en-us/library/aa337545(v=sql.105).aspx
+- [ ] https://msdn.microsoft.com/en-us/library/dd207005(v=sql.105).aspx
+- [ ] https://msdn.microsoft.com/en-us/library/aa337562(v=sql.105).aspx
+
+
 ## Python 
 - [ ] Metaclasses, with django ORM example https://habrahabr.ru/post/145835/
 - [ ] How web works introduction, continues on web sockets and async http://mrjoes.github.io/2013/06/21/python-realtime.html
@@ -434,15 +445,30 @@ _*Currently here*_
         - [ ] Reusability and composition
         - [ ] Tooling
 
+- NodeJS
+    - [x] https://docs.nodejitsu.com/articles/file-system/how-to-read-files-in-nodejs/
+
+- Testing
+    - Mocha
+        - [ ] https://mochajs.org/#asynchronous-code
+        
 ## Typescript
 - http://www.typescriptlang.org/docs/handbook/interfaces.html#toc-handbook
     - [x] http://www.typescriptlang.org/docs/handbook/basic-types.html
     - [x] http://www.typescriptlang.org/docs/handbook/variable-declarations.html
     - [x] http://www.typescriptlang.org/docs/handbook/interfaces.html
     - [x] Read up to Advanced techniques - http://www.typescriptlang.org/docs/handbook/classes.html
+    - [x] https://www.typescriptlang.org/docs/handbook/generics.html
+        - [x] https://templecoding.com/blog/2016/03/17/leveraging-the-power-of-generics-with-typescript/
 
 
 ## Devops
+
+### RabbitMQ
+- [x] http://www.rabbitmq.com/tutorials/tutorial-three-javascript.html
+- [x] http://www.rabbitmq.com/tutorials/tutorial-four-javascript.html
+- [x] http://www.rabbitmq.com/tutorials/tutorial-five-javascript.html
+- [ ] https://facundoolano.wordpress.com/2016/06/26/real-world-rpc-with-rabbitmq-and-node-js/
 
 ### Docker
 - [x] Overview http://elliot.land/post/docker-explained-simply
@@ -473,9 +499,7 @@ _*Currently here*_
 - dpkg
 	- [ ] https://wiki.debian.org/DebianPackageManagement
 - [ ] Tar https://www.computerhope.com/unix/utar.htm
-
-### Rabbitmq
-- [ ] Javascript helloworld
+- [ ] Cat http://www.linfo.org/cat.html
 
 ### Guides from the frontlines
 - [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
