@@ -448,6 +448,11 @@ _*Currently here*_
 - NodeJS
     - [x] https://docs.nodejitsu.com/articles/file-system/how-to-read-files-in-nodejs/
 
+    - npm
+        - [x] https://docs.npmjs.com/files/package.json
+        - [x] https://docs.npmjs.com/misc/scripts
+        - [x] https://docs.npmjs.com/misc/config
+        
 - Testing
     - Mocha
         - [ ] https://mochajs.org/#asynchronous-code
@@ -457,9 +462,12 @@ _*Currently here*_
     - [x] http://www.typescriptlang.org/docs/handbook/basic-types.html
     - [x] http://www.typescriptlang.org/docs/handbook/variable-declarations.html
     - [x] http://www.typescriptlang.org/docs/handbook/interfaces.html
-    - [x] Read up to Advanced techniques - http://www.typescriptlang.org/docs/handbook/classes.html
+    - [ ] Read up to Advanced techniques - http://www.typescriptlang.org/docs/handbook/classes.html
     - [x] https://www.typescriptlang.org/docs/handbook/generics.html
         - [x] https://templecoding.com/blog/2016/03/17/leveraging-the-power-of-generics-with-typescript/
+    - [ ] Read about half of it https://www.typescriptlang.org/docs/handbook/advanced-types.html
+    - [x] https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html
+    - [ ] https://www.typescriptlang.org/docs/handbook/modules.html
 
 
 ## Devops
