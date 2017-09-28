@@ -437,6 +437,7 @@ _*Currently here*_
 - Core JS - Estimated completition time: 3 days.
     - [ ] rehearse lang basics https://javascript.info/
     - [x] https://javascript.info/async
+    - [ ] Great stuff on promises! https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
     
 - VueJS 
     - https://vuejs.org/v2/guide/
