@@ -476,7 +476,7 @@ _*Currently here*_
 - [x] http://www.rabbitmq.com/tutorials/tutorial-three-javascript.html
 - [x] http://www.rabbitmq.com/tutorials/tutorial-four-javascript.html
 - [x] http://www.rabbitmq.com/tutorials/tutorial-five-javascript.html
-- [ ] https://facundoolano.wordpress.com/2016/06/26/real-world-rpc-with-rabbitmq-and-node-js/
+- [x] https://facundoolano.wordpress.com/2016/06/26/real-world-rpc-with-rabbitmq-and-node-js/
 
 ### Docker
 - [x] Overview http://elliot.land/post/docker-explained-simply
@@ -513,6 +513,7 @@ _*Currently here*_
 - [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
     - A well-written guide, explains all steps and settings
     - Good ansible playbook organization
+- [x] Understand your azure spending https://www.petri.com/understand-your-microsoft-azure-spending
 
 ## Meta 
 - [ ] Improving my code quality
