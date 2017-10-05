@@ -516,6 +516,7 @@ _*Currently here*_
 - [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
     - A well-written guide, explains all steps and settings
     - Good ansible playbook organization
+- [x] https://stackoverflow.com/questions/145131/whats-the-best-strategy-for-unit-testing-database-driven-applications?rq=1
 
 ### Azure
 - [x] Understand your azure spending https://www.petri.com/understand-your-microsoft-azure-spending
