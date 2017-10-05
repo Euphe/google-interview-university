@@ -514,7 +514,10 @@ _*Currently here*_
 - [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
     - A well-written guide, explains all steps and settings
     - Good ansible playbook organization
+
+### Azure
 - [x] Understand your azure spending https://www.petri.com/understand-your-microsoft-azure-spending
+- [ ] https://social.msdn.microsoft.com/Forums/en-US/8c6372b6-a707-49a2-867e-5c93105ac3e8/azure-vm-updownrunning-monitoring-and-alerting?forum=WAVirtualMachinesforWindows
 
 ## Meta 
 - [ ] Improving my code quality
