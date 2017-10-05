@@ -481,6 +481,8 @@ _*Currently here*_
 
 ### Docker
 - [x] Overview http://elliot.land/post/docker-explained-simply
+- [x] Parts 1-5 https://docs.docker.com/get-started/
+- [x] Great guide, not only for Docker, but for all web system design https://github.com/docker/labs/tree/master/12factor
 
 ### Ansible 
 - [x] Overview https://www.ansible.com/how-ansible-works
