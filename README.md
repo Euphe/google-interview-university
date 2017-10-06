@@ -483,6 +483,8 @@ _*Currently here*_
 - [x] Overview http://elliot.land/post/docker-explained-simply
 - [x] Parts 1-5 https://docs.docker.com/get-started/
 - [x] Great guide, not only for Docker, but for all web system design https://github.com/docker/labs/tree/master/12factor
+- [x] https://blog.docker.com/2017/09/microsoft-sql-on-docker-ee/
+    - [ ] https://github.com/docker/labs/tree/master/windows/sql-server
 
 ### Ansible 
 - [x] Overview https://www.ansible.com/how-ansible-works
@@ -511,6 +513,9 @@ _*Currently here*_
 	- [ ] https://wiki.debian.org/DebianPackageManagement
 - [ ] Tar https://www.computerhope.com/unix/utar.htm
 - [ ] Cat http://www.linfo.org/cat.html
+
+### Gitlab
+- [x] https://docs.gitlab.com/ce/ci/
 
 ### Guides from the frontlines
 - [x] Setup gitlab using ansible and docker image https://www.djouxtech.net/posts/gitlab-installation-with-ansible-and-docker/
