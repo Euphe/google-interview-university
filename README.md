@@ -522,7 +522,8 @@ _*Currently here*_
     - A well-written guide, explains all steps and settings
     - Good ansible playbook organization
 - [x] https://stackoverflow.com/questions/145131/whats-the-best-strategy-for-unit-testing-database-driven-applications?rq=1
-
+- [x] BEST PRACTICE for integration testing with Docker, amazing! https://hharnisc.github.io/2016/06/19/integration-testing-with-docker-compose.html
+- [ ] 
 ### Azure
 - [x] Understand your azure spending https://www.petri.com/understand-your-microsoft-azure-spending
 - [ ] https://social.msdn.microsoft.com/Forums/en-US/8c6372b6-a707-49a2-867e-5c93105ac3e8/azure-vm-updownrunning-monitoring-and-alerting?forum=WAVirtualMachinesforWindows
